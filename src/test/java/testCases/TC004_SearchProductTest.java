@@ -15,7 +15,10 @@ public class TC004_SearchProductTest extends BaseClass {
 	public void searchproduct() throws InterruptedException
 	{
 		
-		
+		try
+		{
+			
+			logger.info("search case started......");
 		SearchPage sp = new SearchPage(driver);
 		sp.EnterName(p.getProperty("searchProductName"));
 		Thread.sleep(2000);
@@ -39,8 +42,15 @@ public class TC004_SearchProductTest extends BaseClass {
 		Thread.sleep(2000);
 		sp.clicksearch();
 		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
-		System.out.println(js.executeScript("return window.pageYOffset;"));	  //3rd scroll page till end of the page
+		System.out.println(js.executeScript("return window.pageYOffset;"));	//3rd scroll page till end of the page
 		
+		logger.info("search case ended......");
+		}
+		catch(Exception e)
+		{
+			Assert.fail();
+			
+		}
 		
 		
 		
