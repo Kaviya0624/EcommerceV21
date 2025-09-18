@@ -31,19 +31,19 @@ public class TC005_Addtocart extends BaseClass {
 		
 		AddtocartPage at =  new AddtocartPage(driver);
 		at.clickIphone();
-		Thread.sleep(2000);
+	
 		at.clickImage();
-		Thread.sleep(2000);
+	
 		
 		for (int i = 0; i < 4; i++) {
 		    at.clickArrow();
-		    Thread.sleep(2000);
+		    
 		}
 		
 		at.clickclose();
-		 Thread.sleep(2000);
+		
 		 at.clickcmpareproduct();
-		 Thread.sleep(2000);
+		
 		 
 		 Assert.assertTrue(at.isSuccessMessageDisplayed(), "Success message not displayed!");
 
@@ -56,13 +56,13 @@ public class TC005_Addtocart extends BaseClass {
 		System.out.println(js.executeScript("return window.pageYOffset;"));
 			
 		at.clickreviews();
-		 Thread.sleep(2000);
+		
 		 
 		
 		 at.enterquantity("2");
-		 Thread.sleep(2000);
+		
 		 at.clickaddtocart();
-		 Thread.sleep(2000);
+		
 		 
 		 Assert.assertTrue(at.isSuccessMessageDisplayed(), "Product was not added to cart successfully!");
 		 
