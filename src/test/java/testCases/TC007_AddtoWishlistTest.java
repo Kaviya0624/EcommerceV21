@@ -8,7 +8,7 @@ import pageObjects.AddToWishlistPage;
 import pageObjects.LoginPage;
 import testBase.BaseClass;
 
-public class TC007_AddtoWishlist extends BaseClass {
+public class TC007_AddtoWishlistTest extends BaseClass {
 	
 	@Test
 	public void verifyWishlist()

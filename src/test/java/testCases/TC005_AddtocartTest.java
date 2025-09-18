@@ -10,7 +10,7 @@ import pageObjects.AddtocartPage;
 import pageObjects.SearchPage;
 import testBase.BaseClass;
 
-public class TC005_Addtocart extends BaseClass {
+public class TC005_AddtocartTest extends BaseClass {
 	
 	
 	@Test

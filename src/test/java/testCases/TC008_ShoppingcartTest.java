@@ -1,0 +1,72 @@
+package testCases;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import pageObjects.AddtocartPage;
+import pageObjects.SearchPage;
+import pageObjects.ShoppingCartPage;
+import testBase.BaseClass;
+
+public class TC008_ShoppingcartTest extends BaseClass {
+	
+	
+	@Test
+	public void verfiyShoppingcartTest() throws InterruptedException
+	{
+		
+		logger.info("addtocart test started........");
+		SearchPage sp = new SearchPage(driver);
+		sp.EnterName(p.getProperty("searchProductName"));
+		sp.clicksearch();
+		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		WebElement ele = driver.findElement(By.xpath("//span[normalize-space()='Add to Cart']"));
+		js.executeScript("arguments[0].scrollIntoView();", ele);
+		System.out.println(js.executeScript("return window.pageYOffset;"));
+		
+		AddtocartPage at =  new AddtocartPage(driver);
+		at.clickIphone();
+		at.enterquantity("1");
+		at.clickaddtocart();
+		
+		Assert.assertTrue(at.isSuccessMessageDisplayed(), "Product was not added to cart successfully!");
+		 
+		 
+		ShoppingCartPage sc = new ShoppingCartPage(driver);
+		 
+		Thread.sleep(2000);
+		sc.openCartDropdown();
+		Thread.sleep(2000);
+		sc.removeItemFromCart();
+		Thread.sleep(2000);
+		sc.addItemToCart();
+		Thread.sleep(2000);
+		sc.goToShoppingCart();
+		sc.updateQuantity("2");
+		Thread.sleep(2000);
+		
+		sc.applyCoupon("COUPON10");
+		Thread.sleep(2000);
+		String alertText = sc.getAlertMessage();
+		
+		Assert.assertTrue(alertText.contains("Warning"), "Alert should contain 'Warning'");
+
+		sc.estimateShipping("India", "Tamil Nadu", "4353453");
+		Thread.sleep(2000);
+		
+		sc.applyGiftCertificate("Gift1");
+		Thread.sleep(2000);
+		
+		String alertText2 = sc.getAlertMessage2();
+		Assert.assertTrue(alertText2.contains("Warning"), "Alert should contain 'Warning'");
+		Thread.sleep(2000);
+		
+		sc.proceedToCheckout();
+		
+	}
+
+}
