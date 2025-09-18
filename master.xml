@@ -16,9 +16,10 @@
    <!--   <class name="testCases.TC001_AccountResgistrationTest"/> 
           <class name="testCases.TC002_LoginTest"/> 
           <class name="testCases.TC003_LoginDDT"/>
-          <class name = "testCases.TC004_SearchProductTest" /> -->
+          <class name = "testCases.TC004_SearchProductTest" /> 
           <class name = "testCases.TC005_Addtocart" /> 
-            <class name = "testCases.TC006_CompareProductTest" />
+            <class name = "testCases.TC006_CompareProductTest" /> -->
+            <class name = "testCases.TC007_AddtoWishlist" />
          
     </classes>
   </test> <!-- Test -->

@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC006_CompareProductTest">
+      <class name="testCases.TC007_AddtoWishlist">
         <methods>
           <include name="tearDown"/>
+          <include name="verifyWishlist"/>
           <include name="setup"/>
-          <include name="VerifyCompareproduct"/>
         </methods>
-      </class> <!-- testCases.TC006_CompareProductTest -->
+      </class> <!-- testCases.TC007_AddtoWishlist -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

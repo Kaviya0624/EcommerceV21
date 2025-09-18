@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-18T16:14:55 IST" name="Master Suite" finished-at="2025-09-18T16:15:13 IST" duration-ms="17876">
+  <suite started-at="2025-09-18T18:30:49 IST" name="Master Suite" finished-at="2025-09-18T18:30:56 IST" duration-ms="6447">
     <groups>
     </groups>
-    <test started-at="2025-09-18T16:14:55 IST" name="Test" finished-at="2025-09-18T16:15:13 IST" duration-ms="17876">
-      <class name="testCases.TC006_CompareProductTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_CompareProductTest@606e4010]" started-at="2025-09-18T16:15:05 IST" name="setup" finished-at="2025-09-18T16:15:07 IST" duration-ms="2593" status="PASS">
+    <test started-at="2025-09-18T18:30:49 IST" name="Test" finished-at="2025-09-18T18:30:56 IST" duration-ms="6447">
+      <class name="testCases.TC007_AddtoWishlist">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_AddtoWishlist@3ba987b8]" started-at="2025-09-18T18:30:50 IST" name="setup" finished-at="2025-09-18T18:30:53 IST" duration-ms="2905" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,41 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyCompareproduct()[pri:0, instance:testCases.TC006_CompareProductTest@606e4010]" started-at="2025-09-18T16:15:07 IST" name="VerifyCompareproduct" finished-at="2025-09-18T16:15:12 IST" duration-ms="5050" status="PASS">
+        <test-method signature="verifyWishlist()[pri:0, instance:testCases.TC007_AddtoWishlist@3ba987b8]" started-at="2025-09-18T18:30:53 IST" name="verifyWishlist" finished-at="2025-09-18T18:30:56 IST" duration-ms="2925" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyCompareproduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_CompareProductTest@606e4010]" started-at="2025-09-18T16:15:12 IST" name="tearDown" finished-at="2025-09-18T16:15:13 IST" duration-ms="191" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC006_CompareProductTest -->
-      <class name="testCases.TC005_Addtocart">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_Addtocart@5f049ea1]" started-at="2025-09-18T16:14:56 IST" name="setup" finished-at="2025-09-18T16:15:01 IST" duration-ms="5163" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyaddtocart()[pri:0, instance:testCases.TC005_Addtocart@5f049ea1]" started-at="2025-09-18T16:15:01 IST" name="verifyaddtocart" finished-at="2025-09-18T16:15:05 IST" duration-ms="3730" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyaddtocart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_Addtocart@5f049ea1]" started-at="2025-09-18T16:15:05 IST" name="tearDown" finished-at="2025-09-18T16:15:05 IST" duration-ms="268" status="PASS">
+        </test-method> <!-- verifyWishlist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC007_AddtoWishlist@3ba987b8]" started-at="2025-09-18T18:30:56 IST" name="tearDown" finished-at="2025-09-18T18:30:56 IST" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC005_Addtocart -->
+      </class> <!-- testCases.TC007_AddtoWishlist -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>
