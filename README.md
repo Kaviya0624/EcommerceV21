@@ -81,7 +81,7 @@ mvn clean test -DsuiteXmlFile=testng.xml
 
 ### 4️⃣ Parallel Execution
 
-Parallel execution is configured in `testng.xml` (thread count can be adjusted).
+Parallel execution is configured in `Crossbrowsertesting.xml` (thread count can be adjusted).
 Trigger:
 
 ```bash
