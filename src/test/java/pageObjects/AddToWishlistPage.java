@@ -38,11 +38,20 @@ public class AddToWishlistPage extends BasePage {
 	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
 	WebElement alert;
 	
+	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
+	WebElement alert2;
+	
 	@FindBy(xpath="//a[normalize-space()='Continue']")
 	WebElement contin;
 	
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Wish List']")
 	WebElement AccoWL;
+	
+	
+	
+	 public String getErrorMessage() {
+	        return alert2.getText();
+	    }
 	
 	public void clickCamera()
 	{

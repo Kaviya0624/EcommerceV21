@@ -22,6 +22,15 @@ public class SearchPage extends BasePage{
 	@FindBy(xpath="//*[@id='content']/div[3]//img")
 	List<WebElement> searchProducts;
 	
+	@FindBy(xpath = "//p[contains(text(),'There is no product that matches the search criter')]") // update selector according to your app
+	 WebElement noProductMsg;
+
+	public String getNoProductMessage() 
+	{
+	    return noProductMsg.getText();
+	}
+
+	
 	public void EnterName(String name)
 	{
 		txtSearch.clear();

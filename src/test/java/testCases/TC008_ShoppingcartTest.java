@@ -20,7 +20,7 @@ public class TC008_ShoppingcartTest extends BaseClass {
 		
 		logger.info("addtocart test started........");
 		SearchPage sp = new SearchPage(driver);
-		sp.EnterName(p.getProperty("searchProductName"));
+		sp.EnterName(p.getProperty("searchProductName1"));
 		sp.clicksearch();
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;

@@ -13,15 +13,15 @@ import testBase.BaseClass;
 public class TC005_AddtocartTest extends BaseClass {
 	
 	
-	@Test
+	@Test(priority = 1 ,groups= {"Sanity"})
 	public void verifyaddtocart() throws InterruptedException
 	{
 		try
 		{
 			
-			logger.info("addtocart test started........");
+		logger.info("addtocart test started........");
 		SearchPage sp = new SearchPage(driver);
-		sp.EnterName(p.getProperty("searchProductName"));
+		sp.EnterName(p.getProperty("searchProductName1"));
 		sp.clicksearch();
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -41,11 +41,10 @@ public class TC005_AddtocartTest extends BaseClass {
 		}
 		
 		at.clickclose();
-		
-		 at.clickcmpareproduct();
+		at.clickcmpareproduct();
 		
 		 
-		 Assert.assertTrue(at.isSuccessMessageDisplayed(), "Success message not displayed!");
+		Assert.assertTrue(at.isSuccessMessageDisplayed(), "Success message not displayed!");
 
 			
 //		WebElement add = driver.findElement(By.xpath("//a[normalize-space()='Reviews (0)']"));
@@ -72,5 +71,7 @@ public class TC005_AddtocartTest extends BaseClass {
 		}
 	
 	}
+	
+
 
 }

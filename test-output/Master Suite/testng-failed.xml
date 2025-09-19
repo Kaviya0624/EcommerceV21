@@ -8,15 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC001_AccountResgistrationTest">
+      <class name="testCases.TC007_AddtoWishlistTest">
         <methods>
-          <include name="verify_RegistrationWithPasswordMismatch"/>
           <include name="tearDown"/>
-          <include name="verify_RegistrationWithEmptyFirstName"/>
-          <include name="verify_RegistrationWithInvalidEmail"/>
           <include name="setup"/>
+          <include name="verifyWishlist"/>
         </methods>
-      </class> <!-- testCases.TC001_AccountResgistrationTest -->
+      </class> <!-- testCases.TC007_AddtoWishlistTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

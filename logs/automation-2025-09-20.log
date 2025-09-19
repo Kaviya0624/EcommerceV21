@@ -1,0 +1,630 @@
+20:10:17.384 [main] INFO  - ****Starting testcase a *****
+20:10:17.534 [main] INFO  - ****clicked myaccount *****
+20:10:17.864 [main] INFO  - ****clicked register *****
+20:10:17.867 [main] INFO  - ****customer details *****
+20:10:18.976 [main] INFO  - ****validating expected message *****
+20:10:19.043 [main] INFO  - ****test executed*****
+21:24:24.246 [main] INFO  - ****Starting testcase a *****
+21:24:24.247 [main] INFO  - ****Starting testcase a *****
+21:24:24.424 [main] INFO  - ****clicked myaccount *****
+21:24:24.428 [main] INFO  - ****clicked myaccount *****
+21:24:24.975 [main] INFO  - ****clicked register *****
+21:24:24.976 [main] INFO  - ****clicked register *****
+21:24:24.978 [main] INFO  - ****customer details *****
+21:24:24.978 [main] INFO  - ****customer details *****
+21:24:26.417 [main] INFO  - ****validating expected message *****
+21:24:26.432 [main] INFO  - ****validating expected message *****
+21:24:26.513 [main] INFO  - ****test executed*****
+21:24:26.521 [main] INFO  - ****test executed*****
+21:25:48.235 [main] INFO  - ****Starting testcase a *****
+21:25:48.809 [main] INFO  - ****clicked myaccount *****
+21:25:49.491 [main] INFO  - ****clicked register *****
+21:25:49.501 [main] INFO  - ****customer details *****
+21:25:52.243 [main] INFO  - ****validating expected message *****
+21:25:52.374 [main] INFO  - ****test executed*****
+21:31:45.133 [main] INFO  - ****Starting testcase a *****
+21:31:45.269 [main] INFO  - ****clicked myaccount *****
+21:31:45.764 [main] INFO  - ****clicked register *****
+21:31:45.769 [main] INFO  - ****customer details *****
+21:31:46.925 [main] INFO  - ****validating expected message *****
+21:31:46.999 [main] ERROR - test failed........
+21:31:46.999 [main] DEBUG - debug logss....
+21:32:48.451 [main] INFO  - ****Starting testcase a *****
+21:32:48.597 [main] INFO  - ****clicked myaccount *****
+21:32:48.990 [main] INFO  - ****clicked register *****
+21:32:48.993 [main] INFO  - ****customer details *****
+21:32:50.217 [main] INFO  - ****validating expected message *****
+21:32:50.290 [main] ERROR - test failed........
+21:32:50.290 [main] DEBUG - debug logss....
+21:34:51.119 [main] INFO  - ****Starting testcase a *****
+21:34:51.251 [main] INFO  - ****clicked myaccount *****
+21:34:51.602 [main] INFO  - ****clicked register *****
+21:34:51.605 [main] INFO  - ****customer details *****
+21:34:52.750 [main] INFO  - ****validating expected message *****
+21:34:52.806 [main] ERROR - test failed........
+21:34:52.806 [main] DEBUG - debug logss....
+21:37:42.384 [main] INFO  - ****Starting testcase a *****
+21:37:42.545 [main] INFO  - ****clicked myaccount *****
+21:37:42.850 [main] INFO  - ****clicked register *****
+21:37:42.852 [main] INFO  - ****customer details *****
+21:37:43.845 [main] INFO  - ****validating expected message *****
+21:37:43.957 [main] INFO  - ****test executed*****
+21:37:55.830 [main] INFO  - ****Starting testcase a *****
+21:37:55.956 [main] INFO  - ****clicked myaccount *****
+21:37:56.276 [main] INFO  - ****clicked register *****
+21:37:56.281 [main] INFO  - ****customer details *****
+21:37:57.426 [main] INFO  - ****validating expected message *****
+21:37:57.498 [main] INFO  - ****test executed*****
+21:39:29.235 [main] INFO  - ****Starting testcase a *****
+21:39:29.363 [main] INFO  - ****clicked myaccount *****
+21:39:29.813 [main] INFO  - ****clicked register *****
+21:39:29.817 [main] INFO  - ****customer details *****
+21:39:30.956 [main] INFO  - ****validating expected message *****
+21:39:31.108 [main] INFO  - ****test executed*****
+22:20:55.467 [main] INFO  - ****Starting testcase a *****
+22:20:55.610 [main] INFO  - ****clicked myaccount *****
+22:20:55.968 [main] INFO  - ****clicked register *****
+22:20:55.970 [main] INFO  - ****customer details *****
+22:20:57.313 [main] INFO  - ****validating expected message *****
+22:20:57.389 [main] INFO  - ****test executed*****
+22:22:35.041 [main] INFO  - ****Starting testcase a *****
+22:22:35.043 [main] INFO  - ****Starting testcase a *****
+22:22:35.249 [main] INFO  - ****clicked myaccount *****
+22:22:35.257 [main] INFO  - ****clicked myaccount *****
+22:22:35.737 [main] INFO  - ****clicked register *****
+22:22:35.750 [main] INFO  - ****customer details *****
+22:22:35.818 [main] INFO  - ****clicked register *****
+22:22:35.820 [main] INFO  - ****customer details *****
+22:22:38.630 [main] INFO  - ****validating expected message *****
+22:22:38.638 [main] INFO  - ****validating expected message *****
+22:22:38.775 [main] INFO  - ****test executed*****
+22:22:38.775 [main] INFO  - ****test executed*****
+22:25:04.688 [main] INFO  - ****Starting testcase a *****
+22:25:04.835 [main] INFO  - ****clicked myaccount *****
+22:25:05.194 [main] INFO  - ****clicked register *****
+22:25:05.196 [main] INFO  - ****customer details *****
+22:25:06.456 [main] INFO  - ****validating expected message *****
+22:25:06.518 [main] INFO  - ****test executed*****
+22:28:23.822 [main] INFO  - ****Starting testcase a *****
+22:28:23.960 [main] INFO  - ****clicked myaccount *****
+22:28:24.269 [main] INFO  - ****clicked register *****
+22:28:24.272 [main] INFO  - ****customer details *****
+22:28:25.461 [main] INFO  - ****validating expected message *****
+22:28:25.564 [main] INFO  - ****test executed*****
+22:28:27.650 [main] INFO  - ****Starting testcase a *****
+22:28:27.766 [main] INFO  - ****clicked myaccount *****
+22:28:28.135 [main] INFO  - ****clicked register *****
+22:28:28.138 [main] INFO  - ****customer details *****
+22:28:29.143 [main] INFO  - ****validating expected message *****
+22:28:29.248 [main] INFO  - ****test executed*****
+22:28:35.848 [main] INFO  - ****Starting testcase a *****
+22:28:36.133 [main] INFO  - ****clicked myaccount *****
+22:28:36.537 [main] INFO  - ****clicked register *****
+22:28:36.538 [main] INFO  - ****customer details *****
+22:28:37.808 [main] INFO  - ****validating expected message *****
+22:28:37.867 [main] INFO  - ****test executed*****
+22:29:55.985 [TestNG-tests-1] INFO  - ****Starting testcase a *****
+22:29:55.993 [TestNG-tests-2] INFO  - ****Starting testcase a *****
+22:29:56.447 [TestNG-tests-1] INFO  - ****clicked myaccount *****
+22:29:56.485 [TestNG-tests-2] INFO  - ****clicked myaccount *****
+22:29:57.189 [TestNG-tests-2] INFO  - ****clicked register *****
+22:29:57.189 [TestNG-tests-1] INFO  - ****clicked register *****
+22:29:57.198 [TestNG-tests-2] INFO  - ****customer details *****
+22:29:57.200 [TestNG-tests-1] INFO  - ****customer details *****
+22:30:01.733 [TestNG-tests-2] INFO  - ****validating expected message *****
+22:30:02.455 [TestNG-tests-3] INFO  - ****Starting testcase a *****
+22:30:02.474 [TestNG-tests-1] INFO  - ****validating expected message *****
+22:30:02.659 [TestNG-tests-3] INFO  - ****clicked myaccount *****
+22:30:02.692 [TestNG-tests-1] INFO  - ****test executed*****
+22:30:03.143 [TestNG-tests-3] INFO  - ****clicked register *****
+22:30:03.145 [TestNG-tests-3] INFO  - ****customer details *****
+22:30:04.078 [TestNG-tests-2] INFO  - ****test executed*****
+22:30:04.658 [TestNG-tests-3] INFO  - ****validating expected message *****
+22:30:04.700 [TestNG-tests-3] INFO  - ****test executed*****
+22:30:40.464 [TestNG-tests-2] INFO  - ****Starting testcase a *****
+22:30:40.464 [TestNG-tests-1] INFO  - ****Starting testcase a *****
+22:30:40.712 [TestNG-tests-2] INFO  - ****clicked myaccount *****
+22:30:40.768 [TestNG-tests-1] INFO  - ****clicked myaccount *****
+22:30:41.329 [TestNG-tests-1] INFO  - ****clicked register *****
+22:30:41.334 [TestNG-tests-1] INFO  - ****customer details *****
+22:30:41.338 [TestNG-tests-2] INFO  - ****clicked register *****
+22:30:41.341 [TestNG-tests-2] INFO  - ****customer details *****
+22:30:44.315 [TestNG-tests-3] INFO  - ****Starting testcase a *****
+22:30:44.610 [TestNG-tests-3] INFO  - ****clicked myaccount *****
+22:30:45.379 [TestNG-tests-3] INFO  - ****clicked register *****
+22:30:45.380 [TestNG-tests-3] INFO  - ****customer details *****
+22:30:46.282 [TestNG-tests-1] INFO  - ****validating expected message *****
+22:30:46.433 [TestNG-tests-2] INFO  - ****validating expected message *****
+22:30:46.473 [TestNG-tests-3] INFO  - ****validating expected message *****
+22:30:46.519 [TestNG-tests-1] INFO  - ****test executed*****
+22:30:46.553 [TestNG-tests-3] INFO  - ****test executed*****
+22:30:46.568 [TestNG-tests-2] INFO  - ****test executed*****
+22:37:34.198 [main] INFO  - ****Starting testcase a *****
+22:37:34.366 [main] INFO  - ****clicked myaccount *****
+22:37:34.713 [main] INFO  - ****clicked register *****
+22:37:34.715 [main] INFO  - ****customer details *****
+22:37:35.864 [main] INFO  - ****validating expected message *****
+22:37:35.939 [main] INFO  - ****test executed*****
+16:06:16.632 [main] INFO  - ****Starting testcase a *****
+16:06:16.822 [main] INFO  - ****clicked myaccount *****
+16:06:17.170 [main] INFO  - ****clicked register *****
+16:06:17.193 [main] INFO  - ****customer details *****
+16:06:18.352 [main] INFO  - ****validating expected message *****
+16:06:18.431 [main] INFO  - ****test executed*****
+17:00:01.153 [main] INFO  - ***login started******
+17:01:32.989 [main] INFO  - ***login started******
+17:04:49.526 [main] INFO  - ***login started******
+17:05:17.312 [main] INFO  - ***login started******
+17:05:18.288 [main] INFO  - ***finsihed login started******
+17:06:21.136 [main] INFO  - ***login started******
+17:06:22.052 [main] INFO  - ***finsihed login started******
+20:11:21.323 [main] INFO  - ***login started******
+20:11:22.719 [main] INFO  - ***login started******
+20:11:33.487 [main] INFO  - ***login started******
+20:11:44.218 [main] INFO  - ***login started******
+20:11:55.027 [main] INFO  - ***login started******
+20:13:32.113 [main] INFO  - ***login started******
+20:13:33.420 [main] INFO  - ***login started******
+20:13:44.100 [main] INFO  - ***login started******
+20:13:54.724 [main] INFO  - ***login started******
+20:14:05.384 [main] INFO  - ***login started******
+20:17:26.673 [main] INFO  - ***login started******
+20:17:28.215 [main] INFO  - ***login started******
+20:17:39.151 [main] INFO  - ***login started******
+20:17:50.344 [main] INFO  - ***login started******
+20:18:01.010 [main] INFO  - ***login started******
+20:30:08.153 [main] INFO  - ****Starting testcase a *****
+20:30:08.361 [main] INFO  - ****clicked myaccount *****
+20:30:08.836 [main] INFO  - ****clicked register *****
+20:30:08.841 [main] INFO  - ****customer details *****
+20:30:10.117 [main] INFO  - ****validating expected message *****
+20:30:10.192 [main] INFO  - ****test executed*****
+20:30:13.298 [main] INFO  - ***login started******
+20:30:14.492 [main] INFO  - ***finsihed login started******
+20:30:48.311 [main] INFO  - ***login started******
+20:30:49.659 [main] INFO  - ***finsihed login started******
+20:31:43.451 [main] INFO  - ****Starting testcase a *****
+20:31:43.601 [main] INFO  - ****clicked myaccount *****
+20:31:43.996 [main] INFO  - ****clicked register *****
+20:31:43.998 [main] INFO  - ****customer details *****
+20:31:46.039 [main] INFO  - ****validating expected message *****
+20:31:46.110 [main] INFO  - ****test executed*****
+20:31:48.589 [main] INFO  - ***login started******
+20:31:49.691 [main] INFO  - ***finsihed login started******
+22:54:24.016 [main] INFO  - ****Starting testcase a *****
+22:54:24.235 [main] INFO  - ****clicked myaccount *****
+22:54:24.595 [main] INFO  - ****clicked register *****
+22:54:24.598 [main] INFO  - ****customer details *****
+22:54:25.904 [main] INFO  - ****validating expected message *****
+22:54:25.977 [main] INFO  - ****test executed*****
+22:54:28.122 [main] INFO  - ***login started******
+22:54:29.166 [main] INFO  - ***finsihed login started******
+22:58:15.289 [main] INFO  - ****Starting testcase a *****
+22:58:15.440 [main] INFO  - ****clicked myaccount *****
+22:58:15.797 [main] INFO  - ****clicked register *****
+22:58:15.799 [main] INFO  - ****customer details *****
+22:58:16.800 [main] INFO  - ****validating expected message *****
+22:58:16.914 [main] INFO  - ****test executed*****
+22:58:19.147 [main] INFO  - ***login started******
+23:06:14.565 [main] INFO  - ***login started******
+23:06:15.761 [main] INFO  - ***finsihed login started******
+15:36:29.873 [main] INFO  - ****Starting testcase a *****
+15:36:30.063 [main] INFO  - ****clicked myaccount *****
+15:36:30.432 [main] INFO  - ****clicked register *****
+15:36:30.452 [main] INFO  - ****customer details *****
+15:36:31.564 [main] INFO  - ****validating expected message *****
+15:36:31.633 [main] INFO  - ****test executed*****
+15:36:33.463 [main] INFO  - ***login started******
+15:36:34.425 [main] INFO  - ***finsihed login started******
+15:40:29.268 [main] INFO  - ****Starting testcase a *****
+15:40:29.436 [main] INFO  - ****clicked myaccount *****
+15:40:30.362 [main] INFO  - ****clicked register *****
+15:40:30.366 [main] INFO  - ****customer details *****
+15:40:31.486 [main] INFO  - ****validating expected message *****
+15:40:31.577 [main] INFO  - ****test executed*****
+15:40:33.428 [main] INFO  - ***login started******
+15:40:34.370 [main] INFO  - ***finsihed login started******
+15:42:08.406 [main] INFO  - ****Starting testcase a *****
+15:42:08.731 [main] INFO  - ****clicked myaccount *****
+15:42:09.157 [main] INFO  - ****clicked register *****
+15:42:09.161 [main] INFO  - ****customer details *****
+15:42:10.543 [main] INFO  - ****validating expected message *****
+15:42:10.665 [main] INFO  - ****test executed*****
+15:42:12.797 [main] INFO  - ***login started******
+15:42:13.850 [main] INFO  - ***finsihed login started******
+15:44:03.454 [TestNG-tests-3] INFO  - ****Starting testcase a *****
+15:44:52.848 [TestNG-tests-3] INFO  - ****Starting testcase a *****
+15:45:40.065 [TestNG-tests-1] INFO  - ****Starting testcase a *****
+15:45:40.325 [TestNG-tests-1] INFO  - ****clicked myaccount *****
+15:45:42.990 [TestNG-tests-1] INFO  - ****clicked register *****
+15:45:42.999 [TestNG-tests-1] INFO  - ****customer details *****
+15:45:45.473 [TestNG-tests-2] INFO  - ****Starting testcase a *****
+15:45:45.627 [TestNG-tests-2] INFO  - ****clicked myaccount *****
+15:45:46.098 [TestNG-tests-1] INFO  - ****validating expected message *****
+15:45:46.147 [TestNG-tests-2] INFO  - ****clicked register *****
+15:45:46.152 [TestNG-tests-2] INFO  - ****customer details *****
+15:45:46.277 [TestNG-tests-1] INFO  - ****test executed*****
+15:45:48.153 [TestNG-tests-2] INFO  - ****validating expected message *****
+15:45:48.350 [TestNG-tests-2] INFO  - ****test executed*****
+15:47:37.311 [TestNG-tests-1] INFO  - ****Starting testcase a *****
+15:47:37.420 [TestNG-tests-1] INFO  - ****clicked myaccount *****
+15:47:37.766 [TestNG-tests-1] INFO  - ****clicked register *****
+15:47:37.767 [TestNG-tests-1] INFO  - ****customer details *****
+15:47:38.919 [TestNG-tests-1] INFO  - ****validating expected message *****
+15:47:39.009 [TestNG-tests-1] INFO  - ****test executed*****
+15:50:27.346 [TestNG-tests-1] INFO  - ****Starting testcase a *****
+15:50:27.501 [TestNG-tests-1] INFO  - ****clicked myaccount *****
+15:50:27.820 [TestNG-tests-1] INFO  - ****clicked register *****
+15:50:27.822 [TestNG-tests-1] INFO  - ****customer details *****
+15:50:28.995 [TestNG-tests-1] INFO  - ****validating expected message *****
+15:50:29.094 [TestNG-tests-1] INFO  - ****test executed*****
+15:51:07.741 [TestNG-tests-2] INFO  - ****Starting testcase a *****
+15:51:07.865 [TestNG-tests-2] INFO  - ****clicked myaccount *****
+15:51:08.194 [TestNG-tests-2] INFO  - ****clicked register *****
+15:51:08.194 [TestNG-tests-2] INFO  - ****customer details *****
+15:51:09.340 [TestNG-tests-2] INFO  - ****validating expected message *****
+15:51:09.469 [TestNG-tests-2] INFO  - ****test executed*****
+17:41:06.023 [main] INFO  - ****Starting testcase a *****
+17:41:07.888 [main] INFO  - ****clicked myaccount *****
+17:41:08.958 [main] INFO  - ****clicked register *****
+17:41:09.042 [main] INFO  - ****customer details *****
+17:41:14.113 [main] INFO  - ****validating expected message *****
+17:41:14.451 [main] INFO  - ****test executed*****
+17:43:44.651 [main] INFO  - ****Starting testcase a *****
+17:43:45.913 [main] INFO  - ****clicked myaccount *****
+17:43:46.578 [main] INFO  - ****clicked register *****
+17:43:46.583 [main] INFO  - ****customer details *****
+17:43:49.410 [main] INFO  - ****validating expected message *****
+17:43:49.561 [main] INFO  - ****test executed*****
+17:46:31.127 [main] INFO  - ****Starting testcase a *****
+17:46:31.504 [main] INFO  - ****clicked myaccount *****
+17:46:32.386 [main] INFO  - ****clicked register *****
+17:46:32.389 [main] INFO  - ****customer details *****
+17:46:35.813 [main] INFO  - ****validating expected message *****
+17:46:36.676 [main] INFO  - ****test executed*****
+17:49:44.491 [main] INFO  - ****Starting testcase a *****
+17:49:45.205 [main] INFO  - ****clicked myaccount *****
+17:49:45.703 [main] INFO  - ****clicked register *****
+17:49:45.704 [main] INFO  - ****customer details *****
+17:49:47.894 [main] INFO  - ****validating expected message *****
+17:49:48.038 [main] INFO  - ****test executed*****
+18:58:56.625 [main] INFO  - ****Starting testcase a *****
+18:58:56.790 [main] INFO  - ****clicked myaccount *****
+18:58:57.202 [main] INFO  - ****clicked register *****
+18:58:57.206 [main] INFO  - ****customer details *****
+18:58:58.368 [main] INFO  - ****validating expected message *****
+18:58:58.439 [main] INFO  - ****test executed*****
+18:59:00.348 [main] INFO  - ***login started******
+18:59:01.284 [main] INFO  - ***finsihed login started******
+19:18:05.195 [main] INFO  - ****Starting testcase a *****
+19:18:05.326 [main] INFO  - ****clicked myaccount *****
+19:18:05.865 [main] INFO  - ****clicked register *****
+19:18:05.872 [main] INFO  - ****customer details *****
+19:18:07.411 [main] INFO  - ****validating expected message *****
+19:18:07.520 [main] INFO  - ****test executed*****
+19:18:10.613 [main] INFO  - ***login started******
+19:18:11.571 [main] INFO  - ***finsihed login started******
+19:21:10.040 [main] INFO  - ****Starting testcase a *****
+19:21:10.246 [main] INFO  - ****clicked myaccount *****
+19:21:10.794 [main] INFO  - ****clicked register *****
+19:21:10.804 [main] INFO  - ****customer details *****
+19:21:12.782 [main] INFO  - ****validating expected message *****
+19:21:13.052 [main] INFO  - ****test executed*****
+19:21:16.144 [main] INFO  - ***login started******
+19:21:18.468 [main] INFO  - ***finsihed login started******
+21:24:14.115 [main] ERROR - test failed........
+13:57:20.365 [main] INFO  - addtocart test started........
+13:57:45.614 [main] INFO  - addtocart test ended........
+15:59:21.858 [main] ERROR - test failed........
+16:11:24.061 [main] INFO  - CompareProduct test started........
+16:13:43.557 [main] INFO  - CompareProduct test started........
+16:13:46.767 [main] INFO  - CompareProduct test ended........
+16:14:07.699 [main] INFO  - CompareProduct test started........
+16:14:11.033 [main] INFO  - CompareProduct test ended........
+16:15:01.324 [main] INFO  - addtocart test started........
+16:15:05.023 [main] INFO  - addtocart test ended........
+16:15:07.920 [main] INFO  - CompareProduct test started........
+16:15:12.969 [main] INFO  - CompareProduct test ended........
+18:04:25.908 [main] INFO  - Wishlist test started........
+18:06:50.066 [main] INFO  - Wishlist test started........
+18:08:27.900 [main] INFO  - Wishlist test started........
+18:10:14.596 [main] INFO  - Wishlist test started........
+18:11:30.875 [main] INFO  - Wishlist test started........
+18:14:53.165 [main] INFO  - Wishlist test started........
+18:14:56.386 [main] INFO  - Wishlist test ended........
+18:23:44.493 [main] INFO  - Wishlist test started........
+18:25:30.977 [main] INFO  - Wishlist test started........
+18:26:47.080 [main] INFO  - Wishlist test started........
+18:27:13.895 [main] INFO  - Wishlist test ended........
+18:27:42.884 [main] INFO  - Wishlist test started........
+18:28:10.023 [main] INFO  - Wishlist test ended........
+18:30:53.118 [main] INFO  - Wishlist test started........
+18:30:56.029 [main] INFO  - Wishlist test ended........
+20:04:29.407 [main] INFO  - addtocart test started........
+20:07:31.328 [main] INFO  - addtocart test started........
+20:08:56.234 [main] INFO  - addtocart test started........
+20:11:30.546 [main] INFO  - addtocart test started........
+20:13:28.546 [main] INFO  - addtocart test started........
+20:18:51.700 [main] INFO  - addtocart test started........
+20:20:18.109 [main] INFO  - addtocart test started........
+20:21:15.758 [main] INFO  - addtocart test started........
+20:21:49.876 [main] INFO  - addtocart test started........
+20:22:56.914 [main] INFO  - addtocart test started........
+20:23:59.015 [main] INFO  - addtocart test started........
+20:24:41.902 [main] INFO  - addtocart test started........
+20:28:48.788 [main] INFO  - ****Starting testcase a *****
+20:28:48.996 [main] INFO  - ****clicked myaccount *****
+20:28:49.414 [main] INFO  - ****clicked register *****
+20:28:49.416 [main] INFO  - ****customer details *****
+20:28:51.051 [main] INFO  - ****validating expected message *****
+20:28:51.147 [main] INFO  - ****test executed*****
+20:28:53.497 [main] INFO  - ***login started******
+20:28:54.748 [main] INFO  - ***finsihed login started******
+20:28:59.013 [main] INFO  - ***login started******
+20:29:00.626 [main] INFO  - ***login started******
+20:29:11.559 [main] INFO  - ***login started******
+20:29:22.341 [main] INFO  - ***login started******
+20:29:32.998 [main] INFO  - ***login started******
+20:29:46.314 [main] INFO  - search case started......
+20:29:57.717 [main] INFO  - search case ended......
+20:30:00.849 [main] INFO  - addtocart test started........
+20:30:06.770 [main] INFO  - CompareProduct test started........
+20:30:11.099 [main] INFO  - CompareProduct test ended........
+20:30:13.335 [main] INFO  - Wishlist test started........
+20:30:18.142 [main] INFO  - Wishlist test ended........
+20:30:21.189 [main] INFO  - addtocart test started........
+20:32:32.766 [main] INFO  - addtocart test started........
+20:32:35.413 [main] INFO  - addtocart test ended........
+19:08:42.106 [main] INFO  - ****validating expected message *****
+19:11:12.682 [main] INFO  - ****validating expected message *****
+19:20:30.126 [main] INFO  - ****validating expected message *****
+19:22:00.609 [main] INFO  - ****validating expected message *****
+19:25:46.645 [main] INFO  - ****validating expected message *****
+19:28:19.060 [main] INFO  - ****validating expected message *****
+19:30:28.733 [main] INFO  - addtocart test started........
+19:31:16.294 [main] INFO  - addtocart test started........
+19:31:57.102 [main] INFO  - addtocart test started........
+19:31:59.135 [main] INFO  - addtocart test ended........
+19:32:54.203 [main] INFO  - addtocart test started........
+19:33:23.853 [main] INFO  - ****validating expected message *****
+19:34:01.601 [main] INFO  - ****validating expected message *****
+19:35:54.369 [main] INFO  - ****validating expected message *****
+19:43:39.130 [main] INFO  - ****validating expected message *****
+19:45:20.558 [main] INFO  - ****validating expected message *****
+19:47:31.510 [main] INFO  - addtocart test started........
+19:48:38.385 [main] INFO  - addtocart test started........
+19:50:00.187 [main] INFO  - ****validating expected message *****
+19:51:33.551 [main] INFO  - ****validating expected message *****
+19:52:26.655 [main] INFO  - ****validating expected message *****
+20:42:44.186 [main] INFO  - ****validating expected message *****
+20:49:30.058 [main] INFO  - ****validating expected message *****
+20:50:29.913 [main] INFO  - ****validating expected message *****
+20:52:19.619 [main] INFO  - ****validating expected message *****
+21:00:15.417 [main] INFO  - endtoened test started........
+21:00:17.404 [main] INFO  - ****validating expected message *****
+21:04:58.124 [main] INFO  - endtoened test started........
+21:05:00.131 [main] INFO  - ****validating expected message *****
+21:06:37.138 [main] INFO  - endtoened test started........
+21:06:39.208 [main] INFO  - ****validating expected message *****
+21:08:48.274 [main] INFO  - endtoened test started........
+21:08:50.237 [main] INFO  - ****validating expected message *****
+21:09:40.320 [main] INFO  - endtoened test finished........
+22:53:53.728 [main] INFO  - ***login started******
+22:53:55.388 [main] INFO  - ***finsihed login started******
+22:53:55.449 [main] INFO  - ***Negative login test: Invalid credentials started***
+22:54:06.009 [main] INFO  - ***Negative login test: Empty username started***
+22:54:17.266 [main] INFO  - ***Negative login test: Empty password started***
+22:55:54.792 [main] INFO  - ***login started******
+22:56:06.463 [main] INFO  - ***Negative login test: Invalid credentials started***
+22:56:18.184 [main] INFO  - ***Negative login test: Empty username started***
+22:56:29.174 [main] INFO  - ***Negative login test: Empty password started***
+22:57:25.104 [main] INFO  - ***login started******
+22:57:26.767 [main] INFO  - ***finsihed login started******
+22:57:26.818 [main] INFO  - ***Negative login test: Invalid credentials started***
+22:57:27.907 [main] INFO  - ***Negative login test: Invalid credentials finished***
+22:57:27.913 [main] INFO  - ***Negative login test: Empty username started***
+22:57:28.996 [main] INFO  - ***Negative login test: Empty username finished***
+22:57:29.000 [main] INFO  - ***Negative login test: Empty password started***
+22:57:29.888 [main] INFO  - ***Negative login test: Empty password finished***
+22:59:58.355 [main] INFO  - *** Positive login test started ***
+23:00:09.786 [main] ERROR - Exception during positive login test: element not interactable
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4104eba8cdc9e93831ec9449339c8613, clickElement {id=f.20A5DADAC5450F4E6DFDC063234FF10D.d.8254C7B9DAFF85EFF560A6143AC99275.e.105}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59212/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4104eba8cdc9e93831ec9449339c8613)] -> xpath:  //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Logout']]
+Session ID: 4104eba8cdc9e93831ec9449339c8613
+23:00:10.033 [main] INFO  - *** Negative login test: Invalid credentials started ***
+23:00:20.368 [main] ERROR - Exception during negative login test: no such element: Unable to locate element: {"method":"xpath","selector":" //a[normalize-space()='Login']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4104eba8cdc9e93831ec9449339c8613, findElement {value= //a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59212/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4104eba8cdc9e93831ec9449339c8613
+23:00:20.618 [main] INFO  - *** Negative login test: Empty username started ***
+23:00:30.982 [main] ERROR - Exception during empty username test: no such element: Unable to locate element: {"method":"xpath","selector":" //a[normalize-space()='Login']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4104eba8cdc9e93831ec9449339c8613, findElement {value= //a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59212/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4104eba8cdc9e93831ec9449339c8613
+23:00:31.119 [main] INFO  - *** Negative login test: Empty password started ***
+23:00:35.680 [main] ERROR - Exception during empty password test: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4104eba8cdc9e93831ec9449339c8613, findElement {value= //a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59212/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4104eba8cdc9e93831ec9449339c8613
+23:01:06.265 [main] INFO  - ***login started******
+23:01:08.820 [main] INFO  - ***finsihed login started******
+23:01:08.938 [main] INFO  - ***Negative login test: Invalid credentials started***
+23:01:11.126 [main] INFO  - ***Negative login test: Invalid credentials finished***
+23:01:11.131 [main] INFO  - ***Negative login test: Empty username started***
+23:01:27.361 [main] INFO  - ***Negative login test: Empty username finished***
+23:01:27.365 [main] INFO  - ***Negative login test: Empty password started***
+23:01:58.214 [main] INFO  - ***Negative login test: Empty password finished***
+23:07:24.740 [main] INFO  - ****Starting testcase a *****
+23:07:24.952 [main] INFO  - ****clicked myaccount *****
+23:07:25.475 [main] INFO  - ****clicked register *****
+23:07:25.484 [main] INFO  - ****customer details *****
+23:07:26.990 [main] INFO  - ****validating expected message *****
+23:07:27.177 [main] INFO  - ****test executed*****
+23:07:27.246 [main] INFO  - ***Negative test: Empty first name started***
+23:07:37.400 [main] ERROR - Exception during negative test: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18d1fd015cee1bd36d7ff4fa27406052, findElement {using=xpath, value=//a[normalize-space()='Register']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59799}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59799/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18d1fd015cee1bd36d7ff4fa27406052
+23:07:37.562 [main] INFO  - ***Negative test: Invalid email started***
+23:07:47.813 [main] ERROR - Exception during negative test: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18d1fd015cee1bd36d7ff4fa27406052, findElement {using=xpath, value=//a[normalize-space()='Register']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59799}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59799/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18d1fd015cee1bd36d7ff4fa27406052
+23:07:47.976 [main] INFO  - ***Negative test: Password mismatch started***
+23:07:58.231 [main] ERROR - Exception during negative test: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18d1fd015cee1bd36d7ff4fa27406052, findElement {using=xpath, value=//a[normalize-space()='Register']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59799}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59799/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18d1fd015cee1bd36d7ff4fa27406052
+23:10:43.852 [main] INFO  - ****Starting testcase a *****
+23:10:44.113 [main] INFO  - ****clicked myaccount *****
+23:10:44.637 [main] INFO  - ****clicked register *****
+23:10:44.640 [main] INFO  - ****customer details *****
+23:10:46.161 [main] INFO  - ****validating expected message *****
+23:10:46.692 [main] INFO  - ****test executed*****
+23:10:46.808 [main] INFO  - ***Negative test: Empty first name started***
+23:10:58.557 [main] INFO  - ***Negative test: Empty first name finished***
+23:10:58.565 [main] INFO  - ***Negative test: Invalid email started***
+23:11:09.947 [main] INFO  - ***Negative test: Invalid email finished***
+23:11:09.959 [main] INFO  - ***Negative test: Password mismatch started***
+23:11:21.669 [main] INFO  - ***Negative test: Password mismatch finished***
+23:22:22.668 [main] INFO  - search case started......
+23:22:30.345 [main] INFO  - search case ended......
+23:22:30.443 [main] INFO  - Negative test: Search non-existing product started
+23:22:33.330 [main] INFO  - Negative test: Search with empty input started
+23:22:36.028 [main] INFO  - Negative test: Search with special characters started
+23:24:50.064 [main] INFO  - search case started......
+23:24:57.802 [main] INFO  - search case ended......
+23:24:57.839 [main] INFO  - Negative test: Search non-existing product started
+23:25:00.778 [main] INFO  - Negative test: Search non-existing product finished
+23:25:00.783 [main] INFO  - Negative test: Search with empty input started
+23:25:03.362 [main] INFO  - Negative test: Search with empty input finished
+23:25:03.372 [main] INFO  - Negative test: Search with special characters started
+23:25:05.858 [main] INFO  - Negative test: Search with special characters finished
+23:27:15.925 [main] INFO  - search case started......
+23:27:23.485 [main] INFO  - search case ended......
+23:27:23.543 [main] INFO  - Negative test: Search non-existing product started
+23:27:26.177 [main] INFO  - Negative test: Search non-existing product finished
+23:27:26.184 [main] INFO  - Negative test: Search with empty input started
+23:27:28.733 [main] INFO  - Negative test: Search with empty input finished
+23:27:28.738 [main] INFO  - Negative test: Search with special characters started
+23:27:31.358 [main] INFO  - Negative test: Search with special characters finished
+23:44:04.994 [main] INFO  - addtocart test started........
+23:45:37.194 [main] INFO  - Wishlist test started........
+23:45:41.547 [main] INFO  - Wishlist test ended........
+23:45:41.616 [main] INFO  - Negative test: Add to wishlist without login started
+23:45:42.596 [main] INFO  - Negative test: Add duplicate product started
+23:45:52.664 [main] ERROR - Exception during negative wishlist test: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-email']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fca84fcbcf5253e522df28f281a947fe, findElement {using=xpath, value=//input[@id='input-email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62116}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62116/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fca84fcbcf5253e522df28f281a947fe
+23:47:59.528 [main] INFO  - Wishlist test started........
+23:48:03.408 [main] INFO  - Wishlist test ended........
+23:48:03.946 [main] INFO  - Negative test: Add to wishlist without login started
+23:48:04.543 [main] INFO  - Negative test: Add to wishlist without login finished
+23:48:04.547 [main] INFO  - Negative test: Add duplicate product started
+23:48:14.572 [main] ERROR - Exception during negative wishlist test: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-email']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b11215b970a4d6f411594f22bbd6e72b, findElement {using=xpath, value=//input[@id='input-email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62241}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62241/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b11215b970a4d6f411594f22bbd6e72b
+23:50:32.552 [main] INFO  - Wishlist test started........
+23:50:44.943 [main] INFO  - Negative test: Add to wishlist without login started
+23:50:45.591 [main] INFO  - Negative test: Add to wishlist without login finished
+23:50:45.596 [main] INFO  - Negative test: Add duplicate product started
+23:50:55.625 [main] ERROR - Exception during negative wishlist test: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-email']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e1dab74320b2657db8d0329f47d521e7, findElement {using=xpath, value=//input[@id='input-email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62384}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62384/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e1dab74320b2657db8d0329f47d521e7
+23:52:52.637 [main] INFO  - Wishlist test started........
+23:52:56.708 [main] INFO  - Wishlist test ended........
+23:52:57.289 [main] INFO  - Negative test: Add to wishlist without login started
+23:52:57.993 [main] INFO  - Negative test: Add to wishlist without login finished
+23:52:58.004 [main] INFO  - Negative test: Add duplicate product started
+23:52:59.632 [main] ERROR - Exception during negative wishlist test: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d9ea0345b62fc7d3910809f33739fc6, clickElement {id=f.B79BABC254D756FB4779EA0A9C25F069.d.909C17FCC09A9A7173BA5405DE7A54C5.e.314}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62495}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62495/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2d9ea0345b62fc7d3910809f33739fc6)] -> xpath: //a[normalize-space()='Cameras']]
+Session ID: 2d9ea0345b62fc7d3910809f33739fc6
+23:54:16.632 [main] INFO  - Wishlist test started........
+23:54:21.607 [main] INFO  - Wishlist test ended........
+23:54:22.248 [main] INFO  - Negative test: Add to wishlist without login started
+23:54:23.323 [main] INFO  - Negative test: Add to wishlist without login finished
+23:54:23.339 [main] INFO  - Negative test: Add duplicate product started
+23:54:33.743 [main] ERROR - Exception during negative wishlist test: element not interactable
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2999a600cdeccbb2799ee804225782d3, clickElement {id=f.F93EEF3CCA4DB52EF3B1772C14AC003C.d.92A779AE99944CD070E76AC4F728B897.e.359}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62575/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2999a600cdeccbb2799ee804225782d3)] -> xpath:  //a[normalize-space()='Login']]
+Session ID: 2999a600cdeccbb2799ee804225782d3
+23:57:21.276 [main] INFO  - Wishlist test started........
+23:57:25.294 [main] INFO  - Wishlist test ended........
+23:59:58.010 [main] INFO  - Wishlist test started........
+00:00:10.222 [main] INFO  - Negative test: Add to wishlist without login started
+00:00:10.939 [main] INFO  - Negative test: Add to wishlist without login finished
+00:00:10.944 [main] INFO  - Negative test: Add duplicate product started
+00:00:14.813 [main] ERROR - Exception during negative wishlist test: element click intercepted: Element <i class="fa fa-heart"></i> is not clickable at point (581, 619). Other element would receive the click: <img src="https://awesomeqa.com/ui/image/cache/catalog/demo/canon_eos_5d_1-228x228.jpg" alt="Canon EOS 5D" title="Canon EOS 5D" class="img-responsive">
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [73b50f1062793879fa58ea15647c56e7, clickElement {id=f.9374793CE027102302936C5EFBCBC763.d.892EBCF3814033B1A193EA03234BC806.e.270}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62847}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62847/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (73b50f1062793879fa58ea15647c56e7)] -> css selector: div[id='content'] div:nth-child(1) div:nth-child(1) div:nth-child(2) div:nth-child(2) button:nth-child(2) i:nth-child(1)]
+Session ID: 73b50f1062793879fa58ea15647c56e7
