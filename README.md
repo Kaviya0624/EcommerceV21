@@ -122,7 +122,7 @@ Hi, I’m Siva Kaviyamalya 👋 — an aspiring Automation Test Engineer passion
 
 ## 📬 Contact
 - 📧 Email: kaviyamalya3000@gmail.com
-- 🔗 LinkedIn: linkedin.com/in/kaviyamalya610
+- 🔗 LinkedIn: [linkedin.com/in/kaviyamalya610](https://linkedin.com/in/kaviyamalya610)
 
 
 
