@@ -8,13 +8,15 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC009_E2ECheckoutflowTest">
+      <class name="testCases.TC001_AccountResgistrationTest">
         <methods>
+          <include name="verify_RegistrationWithPasswordMismatch"/>
           <include name="tearDown"/>
-          <include name="verifyE2Echekout"/>
+          <include name="verify_RegistrationWithEmptyFirstName"/>
+          <include name="verify_RegistrationWithInvalidEmail"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC009_E2ECheckoutflowTest -->
+      </class> <!-- testCases.TC001_AccountResgistrationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

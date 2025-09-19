@@ -20,9 +20,10 @@
           <class name = "testCases.TC005_AddtocartTest" /> 
           <class name = "testCases.TC006_CompareProductTest" /> 
           <class name = "testCases.TC007_AddtoWishlistTest" /> 
-          <class name = "testCases.TC008_ShoppingcartTest" />   --> 
-            <class name = "testCases.TC009_E2ECheckoutflowTest" /> 
-              
+          <class name = "testCases.TC008_ShoppingcartTest" />  
+            <class name = "testCases.TC009_E2ECheckoutflowTest" />  --> 
+            
+             <class name="testCases.TC001_AccountResgistrationTest"/>
         
     </classes>
   </test> <!-- Test -->

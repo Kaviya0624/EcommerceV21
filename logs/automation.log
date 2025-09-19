@@ -409,3 +409,116 @@
 21:08:48.274 [main] INFO  - endtoened test started........
 21:08:50.237 [main] INFO  - ****validating expected message *****
 21:09:40.320 [main] INFO  - endtoened test finished........
+22:53:53.728 [main] INFO  - ***login started******
+22:53:55.388 [main] INFO  - ***finsihed login started******
+22:53:55.449 [main] INFO  - ***Negative login test: Invalid credentials started***
+22:54:06.009 [main] INFO  - ***Negative login test: Empty username started***
+22:54:17.266 [main] INFO  - ***Negative login test: Empty password started***
+22:55:54.792 [main] INFO  - ***login started******
+22:56:06.463 [main] INFO  - ***Negative login test: Invalid credentials started***
+22:56:18.184 [main] INFO  - ***Negative login test: Empty username started***
+22:56:29.174 [main] INFO  - ***Negative login test: Empty password started***
+22:57:25.104 [main] INFO  - ***login started******
+22:57:26.767 [main] INFO  - ***finsihed login started******
+22:57:26.818 [main] INFO  - ***Negative login test: Invalid credentials started***
+22:57:27.907 [main] INFO  - ***Negative login test: Invalid credentials finished***
+22:57:27.913 [main] INFO  - ***Negative login test: Empty username started***
+22:57:28.996 [main] INFO  - ***Negative login test: Empty username finished***
+22:57:29.000 [main] INFO  - ***Negative login test: Empty password started***
+22:57:29.888 [main] INFO  - ***Negative login test: Empty password finished***
+22:59:58.355 [main] INFO  - *** Positive login test started ***
+23:00:09.786 [main] ERROR - Exception during positive login test: element not interactable
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4104eba8cdc9e93831ec9449339c8613, clickElement {id=f.20A5DADAC5450F4E6DFDC063234FF10D.d.8254C7B9DAFF85EFF560A6143AC99275.e.105}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59212/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4104eba8cdc9e93831ec9449339c8613)] -> xpath:  //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Logout']]
+Session ID: 4104eba8cdc9e93831ec9449339c8613
+23:00:10.033 [main] INFO  - *** Negative login test: Invalid credentials started ***
+23:00:20.368 [main] ERROR - Exception during negative login test: no such element: Unable to locate element: {"method":"xpath","selector":" //a[normalize-space()='Login']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4104eba8cdc9e93831ec9449339c8613, findElement {value= //a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59212/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4104eba8cdc9e93831ec9449339c8613
+23:00:20.618 [main] INFO  - *** Negative login test: Empty username started ***
+23:00:30.982 [main] ERROR - Exception during empty username test: no such element: Unable to locate element: {"method":"xpath","selector":" //a[normalize-space()='Login']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4104eba8cdc9e93831ec9449339c8613, findElement {value= //a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59212/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4104eba8cdc9e93831ec9449339c8613
+23:00:31.119 [main] INFO  - *** Negative login test: Empty password started ***
+23:00:35.680 [main] ERROR - Exception during empty password test: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4104eba8cdc9e93831ec9449339c8613, findElement {value= //a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59212/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4104eba8cdc9e93831ec9449339c8613
+23:01:06.265 [main] INFO  - ***login started******
+23:01:08.820 [main] INFO  - ***finsihed login started******
+23:01:08.938 [main] INFO  - ***Negative login test: Invalid credentials started***
+23:01:11.126 [main] INFO  - ***Negative login test: Invalid credentials finished***
+23:01:11.131 [main] INFO  - ***Negative login test: Empty username started***
+23:01:27.361 [main] INFO  - ***Negative login test: Empty username finished***
+23:01:27.365 [main] INFO  - ***Negative login test: Empty password started***
+23:01:58.214 [main] INFO  - ***Negative login test: Empty password finished***
+23:07:24.740 [main] INFO  - ****Starting testcase a *****
+23:07:24.952 [main] INFO  - ****clicked myaccount *****
+23:07:25.475 [main] INFO  - ****clicked register *****
+23:07:25.484 [main] INFO  - ****customer details *****
+23:07:26.990 [main] INFO  - ****validating expected message *****
+23:07:27.177 [main] INFO  - ****test executed*****
+23:07:27.246 [main] INFO  - ***Negative test: Empty first name started***
+23:07:37.400 [main] ERROR - Exception during negative test: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18d1fd015cee1bd36d7ff4fa27406052, findElement {using=xpath, value=//a[normalize-space()='Register']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59799}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59799/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18d1fd015cee1bd36d7ff4fa27406052
+23:07:37.562 [main] INFO  - ***Negative test: Invalid email started***
+23:07:47.813 [main] ERROR - Exception during negative test: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18d1fd015cee1bd36d7ff4fa27406052, findElement {using=xpath, value=//a[normalize-space()='Register']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59799}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59799/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18d1fd015cee1bd36d7ff4fa27406052
+23:07:47.976 [main] INFO  - ***Negative test: Password mismatch started***
+23:07:58.231 [main] ERROR - Exception during negative test: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18d1fd015cee1bd36d7ff4fa27406052, findElement {using=xpath, value=//a[normalize-space()='Register']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59799}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59799/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18d1fd015cee1bd36d7ff4fa27406052
+23:10:43.852 [main] INFO  - ****Starting testcase a *****
+23:10:44.113 [main] INFO  - ****clicked myaccount *****
+23:10:44.637 [main] INFO  - ****clicked register *****
+23:10:44.640 [main] INFO  - ****customer details *****
+23:10:46.161 [main] INFO  - ****validating expected message *****
+23:10:46.692 [main] INFO  - ****test executed*****
+23:10:46.808 [main] INFO  - ***Negative test: Empty first name started***
+23:10:58.557 [main] INFO  - ***Negative test: Empty first name finished***
+23:10:58.565 [main] INFO  - ***Negative test: Invalid email started***
+23:11:09.947 [main] INFO  - ***Negative test: Invalid email finished***
+23:11:09.959 [main] INFO  - ***Negative test: Password mismatch started***
+23:11:21.669 [main] INFO  - ***Negative test: Password mismatch finished***
