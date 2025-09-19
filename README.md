@@ -10,8 +10,8 @@ This project demonstrates:
 * ✅ Scalable test automation structure
 * ✅ Reusable page objects & utilities
 * ✅ Configurable test execution
-* ✅ **Data-driven testing** using CSV/Excel
-* ✅ Advanced reporting with **Extent Reports**
+* ✅ **Data-driven testing** using CSV/Excel with TestNG `@DataProvider`
+* ✅ Advanced reporting with **Extent Reports** (reports generated in `reports/` folder)
 * ✅ **Parallel execution** support for faster test runs
 * ✅ **Jenkins integration** for CI/CD pipelines
 
@@ -24,8 +24,8 @@ This project demonstrates:
 * **Test Framework:** TestNG
 * **UI Automation:** Selenium WebDriver
 * **Design Pattern:** Page Object Model (POM)
-* **Data-Driven Testing:** CSV/Excel files
-* **Reports:** TestNG + Extent Reports (HTML)
+* **Data-Driven Testing:** CSV/Excel files (`@DataProvider` in TestNG)
+* **Reports:** TestNG + Extent Reports (HTML in `reports/` folder)
 * **CI/CD:** Jenkins (pipeline integration)
 
 ---
@@ -35,7 +35,7 @@ This project demonstrates:
 ```
 EcommerceV21/
  ├── pom.xml                  # Maven dependencies
- ├── testng.xml               # TestNG suite configuration
+ ├── testng.xml               # TestNG suite configuration (thread count configured for parallel execution)
  ├── src/
  │   ├── main/java/
  │   │    └── utilities/      # Utility classes (config, waits, reporting, etc.)
@@ -81,7 +81,7 @@ mvn clean test -DsuiteXmlFile=testng.xml
 
 ### 4️⃣ Parallel Execution
 
-Parallel execution is configured in `testng.xml`.
+Parallel execution is configured in `testng.xml` (thread count can be adjusted).
 Trigger:
 
 ```bash
@@ -95,10 +95,10 @@ and TestNG will execute tests in multiple threads for faster feedback.
 ## ⚡ Features
 
 * Centralized **driver setup & teardown**
-* **Data-driven tests** reading input from CSV/Excel files
+* **Data-driven tests** using CSV/Excel via TestNG `@DataProvider`
 * Reusable **page methods** to reduce code duplication
 * **Assertions** for validation of expected results
-* **Extent Reports** for detailed HTML execution reports
+* **Extent Reports** for detailed HTML execution reports (saved in `reports/` folder)
 * **Screenshots on failure** for debugging
 * Parallel execution for faster test runs
 * **CI/CD ready** with Jenkins pipeline integration
