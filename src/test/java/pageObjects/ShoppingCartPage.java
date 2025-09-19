@@ -77,6 +77,8 @@ public class ShoppingCartPage extends BasePage {
 	@FindBy(xpath="//a[@class='btn btn-primary']")
 	WebElement checkout;
 	
+	@FindBy(css ="tbody tr td:nth-child(6)")
+	WebElement totalprice;
 	
     public void openCartDropdown() 
     {
@@ -175,5 +177,9 @@ public class ShoppingCartPage extends BasePage {
         checkout.click();
     }
 	
+    public String getTotalPrice()
+	{
+		return totalprice.getText();
+	}
 }
 

@@ -57,16 +57,13 @@ public class TC005_AddtocartTest extends BaseClass {
 			
 		at.clickreviews();
 		
-		 
+		at.enterquantity("2");
 		
-		 at.enterquantity("2");
+		at.clickaddtocart();
 		
-		 at.clickaddtocart();
-		
+		Assert.assertTrue(at.isSuccessMessageDisplayed(), "Product was not added to cart successfully!");
 		 
-		 Assert.assertTrue(at.isSuccessMessageDisplayed(), "Product was not added to cart successfully!");
-		 
-		 logger.info("addtocart test ended........");
+		logger.info("addtocart test ended........");
 		 
 		}
 		catch(Exception e)

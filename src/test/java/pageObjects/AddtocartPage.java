@@ -14,6 +14,9 @@ public class AddtocartPage extends BasePage {
 	@FindBy(xpath="//a[normalize-space()='iPhone']")
 	WebElement lnkIphone;
 	
+	@FindBy(css ="div[class='caption'] h4 a")
+	WebElement iMac;
+	
 	@FindBy(css = "li:nth-child(2) a:nth-child(1) img:nth-child(1)")
 	WebElement fistImage;
 	
@@ -42,6 +45,12 @@ public class AddtocartPage extends BasePage {
 	{
 		lnkIphone.click();
 	}
+	
+	public void clickImac()
+	{
+		iMac.click();
+	}
+	
 	
 	public void clickImage()
 	{

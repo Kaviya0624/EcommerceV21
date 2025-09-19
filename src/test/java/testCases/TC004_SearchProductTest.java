@@ -27,7 +27,7 @@ public class TC004_SearchProductTest extends BaseClass {
 		sp.isProductExist("iPhone");
 		
 		Assert.assertEquals(sp.isProductExist("iPhone"),true);
-		Thread.sleep(2000);
+		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		WebElement ele = driver.findElement(By.xpath("//span[normalize-space()='Add to Cart']"));
 		js.executeScript("arguments[0].scrollIntoView();", ele);
@@ -37,10 +37,11 @@ public class TC004_SearchProductTest extends BaseClass {
 		js.executeScript("window.scrollBy(0,-document.body.scrollHeight)");
 		System.out.println(js.executeScript("return window.pageYOffset;"));	
 		
-		Thread.sleep(2000);
+		
 		sp.EnterName("Mac");
 		Thread.sleep(2000);
 		sp.clicksearch();
+		
 		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
 		System.out.println(js.executeScript("return window.pageYOffset;"));	//3rd scroll page till end of the page
 		

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC001_AccountResgistrationTest">
+      <class name="testCases.TC009_E2ECheckoutflowTest">
         <methods>
           <include name="tearDown"/>
-          <include name="verfy_account_registration"/>
+          <include name="verifyE2Echekout"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC001_AccountResgistrationTest -->
+      </class> <!-- testCases.TC009_E2ECheckoutflowTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
