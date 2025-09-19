@@ -114,15 +114,14 @@ Example: **Login Test**
 
 👨‍💻 About Me
 
-Hi, I’m Siva.Kaviyamalya 👋 — an aspiring Automation Test Engineer passionate about building scalable test frameworks and improving software quality.
-
-🔎 Looking for opportunities in Automation Testing / QA
-💡 Skilled in Java, Selenium, TestNG, Maven, Jenkins, Git, Extent Reports
-🚀 Strong interest in CI/CD, parallel execution, and test optimization
+Hi, I’m Siva Kaviyamalya 👋 — an aspiring Automation Test Engineer passionate about building scalable test frameworks and improving software quality.
+-  🔎 Looking for opportunities in Automation Testing / QA
+-  💡 Skilled in Java, Selenium, TestNG, Maven, Jenkins, Git, Extent Reports
+- 🚀 Strong interest in CI/CD, parallel execution, and test optimization
 
 📬 Contact
-Email: kaviyamalya3000@gmail.com
-LinkedIn: linkedin.com/in/kaviyamalya610/
+- 📧 Email: kaviyamalya3000@gmail.com
+- 🔗 LinkedIn: linkedin.com/in/kaviyamalya610
 
 
 
