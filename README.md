@@ -112,14 +112,15 @@ Example: **Login Test**
 
 💡 *This framework is a professional-grade demo project showcasing automation testing skills.*  
 
-👨‍💻 About Me
-
+## 👨‍💻 About Me
 Hi, I’m Siva Kaviyamalya 👋 — an aspiring Automation Test Engineer passionate about building scalable test frameworks and improving software quality.
 -  🔎 Looking for opportunities in Automation Testing / QA
 -  💡 Skilled in Java, Selenium, TestNG, Maven, Jenkins, Git, Extent Reports
 - 🚀 Strong interest in CI/CD, parallel execution, and test optimization
+  
+---
 
-📬 Contact
+## 📬 Contact
 - 📧 Email: kaviyamalya3000@gmail.com
 - 🔗 LinkedIn: linkedin.com/in/kaviyamalya610
 
