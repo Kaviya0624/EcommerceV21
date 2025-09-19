@@ -1,31 +1,36 @@
-# 🛒 EcommerceV21 – Selenium Test Automation Framework  
+# 🛒 EcommerceV21 – Selenium Test Automation Framework
 
-## 📌 Overview  
-EcommerceV21 is a **Selenium Test Automation Framework** built using **Java, TestNG, and Maven**.  
-It automates key test cases of an **eCommerce web application** (login, product search, cart, checkout, wishlist, etc.), following the **Page Object Model (POM)** design pattern.  
+## 📌 Overview
 
-This project demonstrates:  
-- ✅ Scalable test automation structure  
-- ✅ Reusable page objects & utilities  
-- ✅ Configurable test execution  
-- ✅ Advanced reporting with **Extent Reports**  
-- ✅ **Parallel execution** support for faster test runs  
-- ✅ **Jenkins integration** for CI/CD pipelines  
+EcommerceV21 is a **Selenium Test Automation Framework** built using **Java, TestNG, and Maven**.
+It automates key workflows of an **eCommerce web application** (login, product search, cart, checkout, wishlist, etc.) following the **Page Object Model (POM)** design pattern.
 
----
+This project demonstrates:
 
-## ⚙️ Tech Stack  
-- **Language:** Java (JDK 17 or higher)  
-- **Build Tool:** Maven  
-- **Test Framework:** TestNG  
-- **UI Automation:** Selenium WebDriver  
-- **Design Pattern:** Page Object Model (POM)  
-- **Reports:** TestNG Reports + Extent Reports  
-- **CI/CD:** Jenkins (pipeline integration)  
+* ✅ Scalable test automation structure
+* ✅ Reusable page objects & utilities
+* ✅ Configurable test execution
+* ✅ **Data-driven testing** using CSV/Excel
+* ✅ Advanced reporting with **Extent Reports**
+* ✅ **Parallel execution** support for faster test runs
+* ✅ **Jenkins integration** for CI/CD pipelines
 
 ---
 
-## 📂 Project Structure  
+## ⚙️ Tech Stack
+
+* **Language:** Java (JDK 17+)
+* **Build Tool:** Maven
+* **Test Framework:** TestNG
+* **UI Automation:** Selenium WebDriver
+* **Design Pattern:** Page Object Model (POM)
+* **Data-Driven Testing:** CSV/Excel files
+* **Reports:** TestNG + Extent Reports (HTML)
+* **CI/CD:** Jenkins (pipeline integration)
+
+---
+
+## 📂 Project Structure
 
 ```
 EcommerceV21/
@@ -36,93 +41,102 @@ EcommerceV21/
  │   │    └── utilities/      # Utility classes (config, waits, reporting, etc.)
  │   └── test/java/
  │        ├── base/           # Base classes (driver setup, teardown)
- │        ├── pageObjects/    # Page classes (POM design)
- │        ├── testCases/      # Test classes (TestNG)
- │        └── dataProviders/  # Data-driven testing support
- ├── testData/                # Input data (Excel/CSV/JSON)
- ├── reports/                 # Test execution reports (auto-generated)
- ├── screenshots/             # Screenshots on failure (auto-generated)
+ │        ├── pageObjects/    # Page classes (POM)
+ │        ├── testCases/      # Test scripts (TestNG)
+ │        └── dataProviders/  # Data-driven test support
+ ├── testData/                # Input data (CSV/Excel/JSON)
+ ├── reports/                 # Test execution reports (HTML)
+ ├── screenshots/             # Screenshots on failure
  └── README.md                # Project documentation
 ```
 
 ---
 
-## 🚀 How to Run Tests  
+## 🚀 How to Run Tests
 
-### 1️⃣ Clone the Repository  
+### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/Kaviya0624/EcommerceV21.git
 cd EcommerceV21
 ```
 
-### 2️⃣ Install Dependencies  
+### 2️⃣ Install Dependencies
+
 ```bash
 mvn clean install
 ```
 
-### 3️⃣ Run Tests via TestNG  
+### 3️⃣ Run Tests via TestNG
+
 ```bash
 mvn test
 ```
 
-Or run a specific suite:  
+Or run a specific suite:
+
 ```bash
 mvn clean test -DsuiteXmlFile=testng.xml
 ```
 
-### 4️⃣ Run Tests in Parallel  
-Parallel execution is configured in `testng.xml`.  
-Just trigger:
+### 4️⃣ Parallel Execution
+
+Parallel execution is configured in `testng.xml`.
+Trigger:
+
 ```bash
 mvn test
 ```
-and TestNG will handle multi-threaded execution.  
+
+and TestNG will execute tests in multiple threads for faster feedback.
 
 ---
 
-## ⚡ Features  
-- Centralized **driver setup & teardown**  
-- Test data from **properties / external files**  
-- **Reusable page methods** to reduce code duplication  
-- **Assertions** for validation  
-- **Advanced Extent Reports** for detailed execution reports  
-- **Screenshots on failure** for debugging  
-- **Parallel execution support** for faster feedback  
-- **CI/CD ready** with Jenkins pipeline  
+## ⚡ Features
+
+* Centralized **driver setup & teardown**
+* **Data-driven tests** reading input from CSV/Excel files
+* Reusable **page methods** to reduce code duplication
+* **Assertions** for validation of expected results
+* **Extent Reports** for detailed HTML execution reports
+* **Screenshots on failure** for debugging
+* Parallel execution for faster test runs
+* **CI/CD ready** with Jenkins pipeline integration
 
 ---
 
-## 📊 Sample Test Case Flow  
-Example: **Login Test**  
-1. Launch browser  
-2. Navigate to ecommerce site  
-3. Enter username & password  
-4. Click login  
-5. Assert that user is logged in successfully  
+## 📊 Sample Test Case Flow
+
+Example: **Login Test**
+
+1. Launch browser
+2. Navigate to ecommerce site
+3. Enter username & password
+4. Click login
+5. Assert successful login
 
 ---
 
-## 🔮 Future Enhancements  
-- Add **Allure Reports** as an additional reporting layer  
-- Expand **API testing** within the same framework  
-- Dockerize execution for running tests in isolated containers  
-- Add **cross-browser testing grid (Selenium Grid / cloud providers)**  
+## 🔮 Future Enhancements
+
+* Add **Allure Reports** as an additional reporting layer
+* Expand **API testing** integration
+* Dockerize execution for isolated containers
+* Add **cross-browser testing** (Selenium Grid / cloud)
 
 ---
-
-💡 *This framework is a professional-grade demo project showcasing automation testing skills.*  
 
 ## 👨‍💻 About Me
-Hi, I’m Siva Kaviyamalya 👋 — an aspiring Automation Test Engineer passionate about building scalable test frameworks and improving software quality.
--  🔎 Looking for opportunities in Automation Testing / QA
--  💡 Skilled in Java, Selenium, TestNG, Maven, Jenkins, Git, Extent Reports
-- 🚀 Strong interest in CI/CD, parallel execution, and test optimization
-  
+
+Hi, I’m Siva Kaviyamalya 👋 — an aspiring Automation Test Engineer passionate about building scalable frameworks and improving software quality.
+
+* 🔎 Looking for opportunities in Automation Testing / QA
+* 💡 Skilled in Java, Selenium, TestNG, Maven, Jenkins, Git, Extent Reports
+* 🚀 Strong interest in CI/CD, parallel execution, and test optimization
+
 ---
 
 ## 📬 Contact
-- 📧 Email: kaviyamalya3000@gmail.com
-- 🔗 LinkedIn: [linkedin.com/in/kaviyamalya610](https://linkedin.com/in/kaviyamalya610)
 
-
-
+* 📧 Email: [kaviyamalya3000@gmail.com](mailto:kaviyamalya3000@gmail.com)
+* 🔗 LinkedIn: [linkedin.com/in/kaviyamalya610](https://linkedin.com/in/kaviyamalya610)
