@@ -42,10 +42,10 @@ public class TC005_AddtocartTest extends BaseClass {
 		
 		at.clickclose();
 		at.clickcmpareproduct();
-		
+		Thread.sleep(1000);
 		 
 		Assert.assertTrue(at.isSuccessMessageDisplayed(), "Success message not displayed!");
-
+		Thread.sleep(1000);
 			
 //		WebElement add = driver.findElement(By.xpath("//a[normalize-space()='Reviews (0)']"));
 //		js.executeScript("arguments[0].scrollIntoView();", add);
@@ -59,9 +59,9 @@ public class TC005_AddtocartTest extends BaseClass {
 		at.enterquantity("2");
 		
 		at.clickaddtocart();
-		
+		Thread.sleep(1000);
 		Assert.assertTrue(at.isSuccessMessageDisplayed(), "Product was not added to cart successfully!");
-		 
+		Thread.sleep(1000);
 		logger.info("addtocart test ended........");
 		 
 		}
