@@ -2,35 +2,40 @@
 
 ## 📌 Overview
 
-EcommerceV21 is a **Selenium Test Automation Framework** built using **Java, TestNG, and Maven**.
+EcommerceV21 is a **Selenium Test Automation Framework** built using **Java, TestNG, and Maven**.  
 It automates key workflows of an **eCommerce web application** (login, product search, cart, checkout, wishlist, etc.) following the **Page Object Model (POM)** design pattern.
 
 This project demonstrates:
 
-* ✅ Scalable test automation structure
-* ✅ Reusable page objects & utilities
-* ✅ Configurable test execution
-* ✅ **Data-driven testing** using CSV/Excel with TestNG `@DataProvider`
-* ✅ Advanced reporting with **Extent Reports** (reports generated in `reports/` folder)
-* ✅ **Parallel execution** support for faster test runs
-* ✅ **Jenkins integration** for CI/CD pipelines
+* ✅ Scalable test automation structure  
+* ✅ Reusable page objects & utilities  
+* ✅ Configurable test execution  
+* ✅ **Data-driven testing** using CSV/Excel with TestNG `@DataProvider`  
+* ✅ Advanced reporting with **Extent Reports** (reports generated in `reports/` folder)  
+* ✅ **Parallel execution** support for faster test runs  
+* ✅ **Jenkins CI/CD pipeline** ready  
+* ✅ **Dockerized Selenium Grid setup** for cross-browser and distributed testing  
+* ✅ End-to-end functional test coverage  
 
 ---
 
 ## ⚙️ Tech Stack
 
-* **Language:** Java (JDK 17+)
-* **Build Tool:** Maven
-* **Test Framework:** TestNG
-* **UI Automation:** Selenium WebDriver
-* **Design Pattern:** Page Object Model (POM)
-* **Data-Driven Testing:** CSV/Excel files (`@DataProvider` in TestNG)
-* **Reports:** TestNG + Extent Reports (HTML in `reports/` folder)
-* **CI/CD:** Jenkins (pipeline integration)
+* **Language:** Java (JDK 17+)  
+* **Build Tool:** Maven  
+* **Test Framework:** TestNG  
+* **UI Automation:** Selenium WebDriver  
+* **Design Pattern:** Page Object Model (POM)  
+* **Data-Driven Testing:** CSV/Excel files (`@DataProvider` in TestNG)  
+* **Reports:** TestNG + Extent Reports (HTML in `reports/` folder)  
+* **CI/CD:** Jenkins (pipeline integration)  
+* **Cross-Browser Execution:** Selenium Grid + Docker  
 
 ---
 
 ## 📂 Project Structure
+
+
 
 ```
 EcommerceV21/
@@ -81,7 +86,7 @@ mvn clean test -DsuiteXmlFile=testng.xml
 
 ### 4️⃣ Parallel Execution
 
-Parallel execution is configured in `Crossbrowsertesting.xml` (thread count can be adjusted).
+Parallel execution is configured in `Paralleltesting.xml` (thread count can be adjusted).
 Trigger:
 
 ```bash
@@ -94,26 +99,30 @@ and TestNG will execute tests in multiple threads for faster feedback.
 
 ## ⚡ Features
 
-* Centralized **driver setup & teardown**
-* **Data-driven tests** using CSV/Excel via TestNG `@DataProvider`
-* Reusable **page methods** to reduce code duplication
-* **Assertions** for validation of expected results
-* **Extent Reports** for detailed HTML execution reports (saved in `reports/` folder)
-* **Screenshots on failure** for debugging
+* Centralized driver setup & teardown
+* Data-driven tests using CSV/Excel via TestNG @DataProvider
+* Reusable page methods to reduce code duplication
+* Assertions for validation of expected results
+* Extent Reports for detailed HTML execution reports
+* Screenshots on failure for debugging
 * Parallel execution for faster test runs
-* **CI/CD ready** with Jenkins pipeline integration
+* Jenkins CI/CD pipeline integration
+* Dockerized Selenium Grid for cross-browser & distributed testing
+* End-to-end workflows automated (Login → Product Search → Cart → Checkout → Logout)
 
 ---
 
 ## 📊 Sample Test Case Flow
 
-Example: **Login Test**
+Example: Login + Add to Cart + Checkout
 
-1. Launch browser
-2. Navigate to ecommerce site
-3. Enter username & password
-4. Click login
-5. Assert successful login
+1.Launch browser
+2.Navigate to ecommerce site
+3.Log in with valid credentials
+4.Search and select a product
+5.Add product to cart
+6.Proceed to checkout
+7.Validate order confirmation
 
 ---
 
@@ -121,8 +130,7 @@ Example: **Login Test**
 
 * Add **Allure Reports** as an additional reporting layer
 * Expand **API testing** integration
-* Dockerize execution for isolated containers
-* Add **cross-browser testing** (Selenium Grid / cloud)
+* Add performance checks and monitoring integration
 
 ---
 
