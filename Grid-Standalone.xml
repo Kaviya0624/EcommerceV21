@@ -8,40 +8,37 @@
 	  <listener class-name="utilities.ExtentReportManager" />
   </listeners>
   
-   
   
- <test name="Linux-Chrome">
-    <parameter name="os" value="Linux"/>
+  <test name="Windows-Chrome">
+    <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-		 <class name="testCases.TC001_AccountResgistrationTest"/> 
+         <class name="testCases.TC001_AccountResgistrationTest"/> 
           <class name="testCases.TC002_LoginTest"/> 
-          <class name = "testCases.TC004_SearchProductTest" /> 
+      	  <class name = "testCases.TC004_SearchProductTest" /> 
           <class name = "testCases.TC007_AddtoWishlistTest" /> 
           <class name = "testCases.TC006_CompareProductTest" /> 
           <class name = "testCases.TC005_AddtocartTest" /> 
           <class name = "testCases.TC008_ShoppingcartTest" />  
           <class name = "testCases.TC009_E2ECheckoutflowTest" /> 
-    </classes>
+	</classes>
   </test> 
   
- 
-
-<test name="Linux-Firefox">
-    <parameter name="os" value="Linux"/>
-    <parameter name="browser" value="firefox"/>
+<test name="Windows-Edge">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="edge"/>
      
     <classes>
-		 <class name="testCases.TC001_AccountResgistrationTest"/> 
-           <class name="testCases.TC002_LoginTest"/> 
-          <class name = "testCases.TC004_SearchProductTest" /> 
+          <class name="testCases.TC001_AccountResgistrationTest"/> 
+          <class name="testCases.TC002_LoginTest"/> 
+      	  <class name = "testCases.TC004_SearchProductTest" /> 
           <class name = "testCases.TC007_AddtoWishlistTest" /> 
           <class name = "testCases.TC006_CompareProductTest" /> 
           <class name = "testCases.TC005_AddtocartTest" /> 
           <class name = "testCases.TC008_ShoppingcartTest" />  
           <class name = "testCases.TC009_E2ECheckoutflowTest" /> 
-    </classes>
-  </test>  
+	</classes>
+  </test> 
   
   
-</suite> <!-- Suite -->
+</suite> 
