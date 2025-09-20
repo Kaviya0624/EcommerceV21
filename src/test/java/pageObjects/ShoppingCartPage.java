@@ -80,6 +80,10 @@ public class ShoppingCartPage extends BasePage {
 	@FindBy(css ="tbody tr td:nth-child(6)")
 	WebElement totalprice;
 	
+	@FindBy(xpath ="//div[@class='text-danger']")
+	WebElement ErrorZone;
+	
+	
     public void openCartDropdown() 
     {
         dropdownCart.click();
@@ -121,15 +125,28 @@ public class ShoppingCartPage extends BasePage {
     }
 
    
-    public String getAlertMessage()
-    {
-    	
-    	 String message = alertmsg.getText();
-    	 txtcoupun.clear();
-    	 return message;
+    public String getErrorMessage() {
+	    try 
+	    {
+	        return alertmsg.getText();
+	    } 
+	    catch(Exception e) {
+	        return ""; 
+	    }
+	}
+
+    public String getErrorZone() {
+        try {
+            if(ErrorZone.isDisplayed()) {
+                return ErrorZone.getText();
+            } else {
+                return "";
+            }
+        } catch(Exception e) {
+            return "";
+        }
     }
 
-   
 
     public void selectCountryAndState(String countryName, String stateName)
     {
@@ -154,8 +171,19 @@ public class ShoppingCartPage extends BasePage {
        applyshipping.click();
       
     }
-
-
+    
+    public void estimateShipping2(String country, String state, String postcode)
+    {
+    	
+       shippingdd.click(); 
+       selectCountryAndState(country, state); 
+       txtpostcode.clear();
+       txtpostcode.sendKeys(postcode);
+       getquotes.click();
+   
+    }
+    
+ 
     public void applyGiftCertificate(String giftCode) 
     {
         gift.click();
@@ -163,14 +191,7 @@ public class ShoppingCartPage extends BasePage {
         applygift.click();
     }
     
-    public String getAlertMessage2()
-    {
-    	
-    	 String message = alertmsg.getText();
-    	 txtgift.clear();
-    	 return message;
-    }
-
+ 
     
     public void proceedToCheckout()
     {
@@ -181,5 +202,7 @@ public class ShoppingCartPage extends BasePage {
 	{
 		return totalprice.getText();
 	}
+    
+ 
 }
 

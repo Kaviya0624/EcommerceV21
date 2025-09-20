@@ -100,7 +100,8 @@ public class TC007_AddtoWishlistTest extends BaseClass {
 
 	        logger.info("Negative test: Add to wishlist without login finished");
 
-	    } catch(Exception e)
+	    } 
+	    catch(Exception e)
 	    {
 	        logger.error("Exception during negative wishlist test: " + e.getMessage());
 	        Assert.fail();

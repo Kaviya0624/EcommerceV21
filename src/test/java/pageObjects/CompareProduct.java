@@ -57,9 +57,26 @@ public class CompareProduct extends BasePage {
 	
 	@FindBy(xpath = "//body[1]/div[2]/div[1]/div[1]/table[1]/tbody[4]/tr[1]/td[2]/input[1]")
 	WebElement Addtocart;
-	
+		
 	@FindBy(css = "a[href='https://awesomeqa.com/ui/index.php?route=product/compare&remove=44']")
 	WebElement Remove;
+	
+	@FindBy(css = "a[href='https://awesomeqa.com/ui/index.php?route=product/compare&remove=43']")
+	WebElement Remove2;
+	
+	@FindBy(xpath="//p[normalize-space()='You have not chosen any products to compare.']")
+	WebElement errormsg;
+	
+	public String getErrorMessage() {
+	    try 
+	    {
+	        return errormsg.getText();
+	    } 
+	    catch(Exception e) {
+	        return ""; 
+	    }
+	}
+
 	
 	public void clickDesktop()
 	{
@@ -148,6 +165,11 @@ public class CompareProduct extends BasePage {
 		Remove.click();
 	}
 	
+	public void clickRemove2()
+	{
+		Remove2.click();
+	}
+	
 	public String getConfirmationMsg2()
 	{
 		try {
@@ -158,5 +180,7 @@ public class CompareProduct extends BasePage {
 			return (e.getMessage());
 		}
 	}
+	
+	
 
 }

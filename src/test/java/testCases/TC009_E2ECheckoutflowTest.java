@@ -117,7 +117,7 @@ public class TC009_E2ECheckoutflowTest extends BaseClass {
 		myassert.assertEquals(totprice, "$200.00");   //validation
 		sc.applyCoupon("COUPON10");
 		Thread.sleep(2000);
-		String alertText = sc.getAlertMessage();
+		String alertText = sc.getErrorMessage();
 		
 		Assert.assertTrue(alertText.contains("Warning"), "Alert should contain 'Warning'");
 
@@ -127,7 +127,7 @@ public class TC009_E2ECheckoutflowTest extends BaseClass {
 		sc.applyGiftCertificate("Gift1");
 		Thread.sleep(2000);
 		
-		String alertText2 = sc.getAlertMessage2();
+		String alertText2 = sc.getErrorMessage();
 		Assert.assertTrue(alertText2.contains("Warning"), "Alert should contain 'Warning'");
 		Thread.sleep(2000);
 		sc.proceedToCheckout(); //navigate to checkout page

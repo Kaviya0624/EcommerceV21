@@ -14,9 +14,11 @@ import testBase.BaseClass;
 public class TC008_ShoppingcartTest extends BaseClass {
 	
 	
-	@Test
+	@Test(priority=1,groups= {"Sanity"})
 	public void verfiyShoppingcartTest() throws InterruptedException
 	{
+		try
+		{
 		
 		logger.info("addtocart test started........");
 		SearchPage sp = new SearchPage(driver);
@@ -34,8 +36,7 @@ public class TC008_ShoppingcartTest extends BaseClass {
 		at.clickaddtocart();
 		
 		Assert.assertTrue(at.isSuccessMessageDisplayed(), "Product was not added to cart successfully!");
-		 
-		 
+		
 		ShoppingCartPage sc = new ShoppingCartPage(driver);
 		 
 		Thread.sleep(2000);
@@ -51,7 +52,7 @@ public class TC008_ShoppingcartTest extends BaseClass {
 		
 		sc.applyCoupon("COUPON10");
 		Thread.sleep(2000);
-		String alertText = sc.getAlertMessage();
+		String alertText = sc.getErrorMessage();
 		
 		Assert.assertTrue(alertText.contains("Warning"), "Alert should contain 'Warning'");
 
@@ -61,12 +62,45 @@ public class TC008_ShoppingcartTest extends BaseClass {
 		sc.applyGiftCertificate("Gift1");
 		Thread.sleep(2000);
 		
-		String alertText2 = sc.getAlertMessage2();
+		String alertText2 = sc.getErrorMessage();
 		Assert.assertTrue(alertText2.contains("Warning"), "Alert should contain 'Warning'");
 		Thread.sleep(2000);
 		
 		sc.proceedToCheckout();
-		
+		}
+		catch(Exception e)
+		{
+			Assert.fail();
+		}
+	
+	}
+	
+	
+	
+	@Test(priority=2, groups={"Negative"})
+	public void estimateShippingWithInvalidDetails() {
+	    try 
+	    {
+	        logger.info("Negative test: Estimate shipping with invalid details started");
+
+	        ShoppingCartPage sc = new ShoppingCartPage(driver);
+	        sc.goToShoppingCart();
+	       // sc.clearShippingForm();
+	        Thread.sleep(2000);
+	        sc.estimateShipping2("India", "--- Please Select ---", "ABCDE");
+	        Thread.sleep(2000);
+	        String alertText3 = sc.getErrorZone();
+	        Assert.assertTrue(alertText3.contains("Please select a region / state!"), "Expected warning message for invalid shipping details");
+	        Thread.sleep(2000);
+	        logger.info("Negative test: Estimate shipping with invalid details finished");
+	    } 
+	    catch(Exception e)
+	    {
+	        logger.error("Exception in estimateShippingWithInvalidDetails: " + e.getMessage());
+	        Assert.fail();
+	    }
 	}
 
+	
+	
 }

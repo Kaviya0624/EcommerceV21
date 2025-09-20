@@ -102,3 +102,178 @@
 00:29:10.634 [main] INFO  - Wishlist test ended........
 00:29:11.109 [main] INFO  - Negative test: Add to wishlist without login started
 00:29:11.753 [main] INFO  - Negative test: Add to wishlist without login finished
+19:15:12.287 [main] INFO  - CompareProduct test started........
+19:15:16.525 [main] INFO  - CompareProduct test ended........
+19:15:16.587 [main] INFO  - Negative Test: Add to compare without selecting product started...
+19:21:23.303 [main] INFO  - CompareProduct test started........
+19:21:28.966 [main] INFO  - CompareProduct test ended........
+19:21:29.023 [main] INFO  - Negative Test: Add to compare without selecting product started...
+19:21:29.840 [main] INFO  - Negative Test: Add to compare without selecting product ended.
+19:21:55.904 [main] INFO  - CompareProduct test started........
+19:22:01.005 [main] INFO  - Negative Test: Add to compare without selecting product started...
+19:22:48.189 [main] INFO  - CompareProduct test started........
+19:22:56.010 [main] INFO  - CompareProduct test ended........
+19:22:56.048 [main] INFO  - Negative Test: Add to compare without selecting product started...
+19:22:56.934 [main] INFO  - Negative Test: Add to compare without selecting product ended.
+19:37:08.462 [main] INFO  - addtocart test started........
+19:37:23.474 [main] INFO  - Negative test: Estimate shipping with invalid details started
+19:37:34.173 [main] ERROR - Exception in estimateShippingWithInvalidDetails: Cannot locate option with text: InvalidCountry
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: driver.version: unknown
+19:39:44.150 [main] INFO  - addtocart test started........
+19:40:08.327 [main] INFO  - Negative test: Estimate shipping with invalid details started
+19:40:18.959 [main] ERROR - Exception in estimateShippingWithInvalidDetails: Cannot locate option with text: InvalidCountry
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: driver.version: unknown
+19:55:10.650 [main] INFO  - addtocart test started........
+19:55:34.670 [main] INFO  - Negative test: Estimate shipping with invalid details started
+19:55:45.440 [main] ERROR - Exception in estimateShippingWithInvalidDetails: Cannot locate option with text: InvalidCountry
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: driver.version: unknown
+20:01:21.653 [main] INFO  - addtocart test started........
+20:01:45.702 [main] INFO  - Negative test: Estimate shipping with invalid details started
+20:02:07.575 [main] ERROR - Exception in estimateShippingWithInvalidDetails: element not interactable
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5cb7cd2fc5833e7f54e828e6f115366f, clearElement {id=f.5581CD4C31B7AB201F71DFEE6503B6BF.d.35414A070113A6B19E02F3FE10750F2C.e.275}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59551/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5cb7cd2fc5833e7f54e828e6f115366f)] -> xpath: //input[@id='input-coupon']]
+Session ID: 5cb7cd2fc5833e7f54e828e6f115366f
+20:15:04.987 [main] INFO  - addtocart test started........
+20:15:29.837 [main] INFO  - Negative test: Estimate shipping with invalid details started
+20:15:41.141 [main] ERROR - Exception in estimateShippingWithInvalidDetails: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='shipping_method']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [022961324e699bdd784b75faac80859f, findElement {using=xpath, value=//input[@name='shipping_method']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59982}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59982/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 022961324e699bdd784b75faac80859f
+20:19:47.605 [main] INFO  - addtocart test started........
+20:20:10.243 [main] INFO  - Negative test: Estimate shipping with invalid details started
+20:20:21.132 [main] ERROR - Exception in estimateShippingWithInvalidDetails: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='shipping_method']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4903fd3ea0078b403464f546816b6eb5, findElement {using=xpath, value=//input[@name='shipping_method']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60198}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60198/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4903fd3ea0078b403464f546816b6eb5
+20:22:51.939 [main] INFO  - addtocart test started........
+20:23:14.728 [main] INFO  - Negative test: Estimate shipping with invalid details started
+20:23:35.387 [main] ERROR - Exception in estimateShippingWithInvalidDetails: Cannot locate option with text: Tamil Nadu
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: driver.version: unknown
+20:25:53.384 [main] INFO  - addtocart test started........
+20:26:15.793 [main] INFO  - Negative test: Estimate shipping with invalid details started
+20:26:26.663 [main] ERROR - Exception in estimateShippingWithInvalidDetails: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='shipping_method']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5b3045446bcac3b0d538c34cb676aaaa, findElement {using=xpath, value=//input[@name='shipping_method']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60488}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60488/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b3045446bcac3b0d538c34cb676aaaa
+20:30:43.252 [main] INFO  - addtocart test started........
+20:31:06.098 [main] INFO  - Negative test: Estimate shipping with invalid details started
+20:31:17.084 [main] ERROR - Exception in estimateShippingWithInvalidDetails: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='shipping_method']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0236f0ee797bd2f81da168735930501d, findElement {value=//input[@name='shipping_method'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60695}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60695/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0236f0ee797bd2f81da168735930501d
+20:35:17.031 [main] INFO  - addtocart test started........
+20:35:40.448 [main] INFO  - Negative test: Estimate shipping with invalid details started
+20:35:51.318 [main] ERROR - Exception in estimateShippingWithInvalidDetails: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='shipping_method']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a91856d5c83cafd9f067d23e0f1451e, findElement {value=//input[@name='shipping_method'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60883}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60883/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a91856d5c83cafd9f067d23e0f1451e
+20:38:48.253 [main] INFO  - addtocart test started........
+20:39:10.969 [main] INFO  - Negative test: Estimate shipping with invalid details started
+20:39:21.829 [main] ERROR - Exception in estimateShippingWithInvalidDetails: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='shipping_method']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f97770458a7eb345db7bd92972156b26, findElement {using=xpath, value=//input[@name='shipping_method']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61025}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61025/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f97770458a7eb345db7bd92972156b26
+20:44:07.620 [main] INFO  - addtocart test started........
+20:44:30.897 [main] INFO  - Negative test: Estimate shipping with invalid details started
+20:46:50.551 [main] INFO  - addtocart test started........
+20:47:13.449 [main] INFO  - Negative test: Estimate shipping with invalid details started
+20:47:20.378 [main] INFO  - Negative test: Estimate shipping with invalid details finished
+20:48:58.362 [main] INFO  - addtocart test started........
+20:49:21.013 [main] INFO  - Negative test: Estimate shipping with invalid details started
+20:49:27.907 [main] INFO  - Negative test: Estimate shipping with invalid details finished
+20:52:14.597 [main] INFO  - ****Starting testcase a *****
+20:52:14.741 [main] INFO  - ****clicked myaccount *****
+20:52:15.073 [main] INFO  - ****clicked register *****
+20:52:15.076 [main] INFO  - ****customer details *****
+20:52:16.249 [main] INFO  - ****validating expected message *****
+20:52:16.691 [main] INFO  - ****test executed*****
+20:52:16.745 [main] INFO  - ***Negative test: Empty first name started***
+20:52:27.784 [main] INFO  - ***Negative test: Empty first name finished***
+20:52:27.788 [main] INFO  - ***Negative test: Invalid email started***
+20:52:38.800 [main] INFO  - ***Negative test: Invalid email finished***
+20:52:38.809 [main] INFO  - ***Negative test: Password mismatch started***
+20:52:49.868 [main] INFO  - ***Negative test: Password mismatch finished***
+20:52:52.408 [main] INFO  - ***login started******
+20:52:53.763 [main] INFO  - ***finsihed login started******
+20:52:53.775 [main] INFO  - ***Negative login test: Invalid credentials started***
+20:52:54.525 [main] INFO  - ***Negative login test: Invalid credentials finished***
+20:52:54.528 [main] INFO  - ***Negative login test: Empty username started***
+20:52:55.191 [main] INFO  - ***Negative login test: Empty username finished***
+20:52:55.194 [main] INFO  - ***Negative login test: Empty password started***
+20:52:55.895 [main] INFO  - ***Negative login test: Empty password finished***
+20:52:59.203 [main] INFO  - ***login started******
+20:53:00.446 [main] INFO  - ***login started******
+20:53:11.194 [main] INFO  - ***login started******
+20:53:21.975 [main] INFO  - ***login started******
+20:53:32.663 [main] INFO  - ***login started******
+20:53:45.009 [main] INFO  - search case started......
+20:53:52.213 [main] INFO  - search case ended......
+20:53:52.219 [main] INFO  - Negative test: Search non-existing product started
+20:53:54.649 [main] INFO  - Negative test: Search non-existing product finished
+20:53:54.651 [main] INFO  - Negative test: Search with empty input started
+20:53:57.118 [main] INFO  - Negative test: Search with empty input finished
+20:53:57.121 [main] INFO  - Negative test: Search with special characters started
+20:53:59.543 [main] INFO  - Negative test: Search with special characters finished
+20:54:01.384 [main] INFO  - Wishlist test started........
+20:54:09.567 [main] INFO  - Wishlist test ended........
+20:54:10.245 [main] INFO  - Negative test: Add to wishlist without login started
+20:54:10.816 [main] INFO  - Negative test: Add to wishlist without login finished
+20:54:12.779 [main] INFO  - CompareProduct test started........
+20:54:19.583 [main] INFO  - CompareProduct test ended........
+20:54:19.585 [main] INFO  - Negative Test: Add to compare without selecting product started...
+20:54:20.277 [main] INFO  - Negative Test: Add to compare without selecting product ended.
+20:54:22.259 [main] INFO  - addtocart test started........
+20:54:24.274 [main] INFO  - addtocart test ended........
+20:54:26.163 [main] INFO  - addtocart test started........
+20:54:48.715 [main] INFO  - Negative test: Estimate shipping with invalid details started
+20:54:55.669 [main] INFO  - Negative test: Estimate shipping with invalid details finished
+20:54:57.628 [main] INFO  - endtoened test started........
+20:54:59.563 [main] INFO  - ****validating expected message *****
+20:55:48.297 [main] INFO  - endtoened test finished........

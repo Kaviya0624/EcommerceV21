@@ -11,7 +11,7 @@ import testBase.BaseClass;
 
 public class TC006_CompareProductTest extends BaseClass {
 	
-	@Test
+	@Test(priority=1, groups={"Sanity"})
 	public void VerifyCompareproduct() throws InterruptedException
 	{
 		try
@@ -108,8 +108,11 @@ public class TC006_CompareProductTest extends BaseClass {
 			WebElement elemen = driver.findElement(By.xpath("//h5[normalize-space()='My Account']"));
 			js.executeScript("arguments[0].scrollIntoView();", elemen);
 			System.out.println(js.executeScript("return window.pageYOffset;"));	
-			
+			Thread.sleep(1000);
 			cp.clickRemove();
+			Thread.sleep(1000);
+			cp.clickRemove2();
+			Thread.sleep(1000);
 			logger.info("CompareProduct test ended........");
 		 
 		}
@@ -119,5 +122,33 @@ public class TC006_CompareProductTest extends BaseClass {
 		}
 		 
 	}
+	
+	
+	@Test(priority=2, groups={"Negative"})
+	public void addToCompareWithoutSelectingProduct() {
+	    try 
+	    {
+	        logger.info("Negative Test: Add to compare without selecting product started...");
 
+	        CompareProduct cp = new CompareProduct(driver);
+	        
+	        cp.clickDesktop();
+			cp.clickShowAllDesktop();
+	        cp.clickProduchCompare();
+
+	        String msg = cp.getErrorMessage(); 
+	        Assert.assertTrue(msg.contains("You have not chosen any products to compare.") 
+	                          || msg.contains("empty"), 
+	                          "Expected error for empty comparison list");
+
+	        logger.info("Negative Test: Add to compare without selecting product ended.");
+	    } 
+	    catch (Exception e) 
+	    {
+	        logger.error("Exception in addToCompareWithoutSelectingProduct: " + e.getMessage());
+	        Assert.fail();
+	    }
+	}
+	
+	
 }
