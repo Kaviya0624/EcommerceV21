@@ -116,13 +116,13 @@ and TestNG will execute tests in multiple threads for faster feedback.
 
 Example: Login + Add to Cart + Checkout
 
-1.Launch browser
-2.Navigate to ecommerce site
-3.Log in with valid credentials
-4.Search and select a product
-5.Add product to cart
-6.Proceed to checkout
-7.Validate order confirmation
+1. Launch browser
+2. Navigate to ecommerce site
+3. Log in with valid credentials
+4. Search and select a product
+5. Add product to cart
+6. Proceed to checkout
+7. Validate order confirmation
 
 ---
 
