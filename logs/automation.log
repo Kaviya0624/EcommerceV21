@@ -329,3 +329,51 @@ Session ID: f97770458a7eb345db7bd92972156b26
 21:14:08.674 [main] INFO  - Wishlist test ended........
 21:14:09.210 [main] INFO  - Negative test: Add to wishlist without login started
 21:14:09.928 [main] INFO  - Negative test: Add to wishlist without login finished
+21:46:01.021 [main] INFO  - ****Starting testcase a *****
+21:46:01.198 [main] INFO  - ****clicked myaccount *****
+21:46:01.607 [main] INFO  - ****clicked register *****
+21:46:01.612 [main] INFO  - ****customer details *****
+21:46:02.725 [main] INFO  - ****validating expected message *****
+21:46:03.146 [main] INFO  - ****test executed*****
+21:46:04.230 [main] INFO  - ***Negative test: Empty first name started***
+21:46:15.375 [main] INFO  - ***Negative test: Empty first name finished***
+21:46:15.380 [main] INFO  - ***Negative test: Invalid email started***
+21:46:26.354 [main] INFO  - ***Negative test: Invalid email finished***
+21:46:26.356 [main] INFO  - ***Negative test: Password mismatch started***
+21:46:37.372 [main] INFO  - ***Negative test: Password mismatch finished***
+21:46:39.499 [main] INFO  - ***login started******
+21:46:40.821 [main] INFO  - ***finsihed login started******
+21:46:40.824 [main] INFO  - ***Negative login test: Invalid credentials started***
+21:46:41.613 [main] INFO  - ***Negative login test: Invalid credentials finished***
+21:46:41.615 [main] INFO  - ***Negative login test: Empty username started***
+21:46:42.301 [main] INFO  - ***Negative login test: Empty username finished***
+21:46:42.307 [main] INFO  - ***Negative login test: Empty password started***
+21:46:43.059 [main] INFO  - ***Negative login test: Empty password finished***
+21:46:46.214 [main] INFO  - ***login started******
+21:46:47.498 [main] INFO  - ***login started******
+21:46:58.098 [main] INFO  - ***login started******
+21:47:08.696 [main] INFO  - ***login started******
+21:47:19.259 [main] INFO  - ***login started******
+21:47:33.659 [main] INFO  - search case started......
+21:47:40.752 [main] INFO  - search case ended......
+21:47:40.754 [main] INFO  - Negative test: Search non-existing product started
+21:47:43.136 [main] INFO  - Negative test: Search non-existing product finished
+21:47:43.138 [main] INFO  - Negative test: Search with empty input started
+21:47:45.615 [main] INFO  - Negative test: Search with empty input finished
+21:47:45.618 [main] INFO  - Negative test: Search with special characters started
+21:47:48.029 [main] INFO  - Negative test: Search with special characters finished
+21:47:50.747 [main] INFO  - Wishlist test started........
+21:47:57.343 [main] INFO  - Wishlist test ended........
+21:47:57.720 [main] INFO  - Negative test: Add to wishlist without login started
+21:47:58.138 [main] INFO  - Negative test: Add to wishlist without login finished
+21:47:59.779 [main] INFO  - CompareProduct test started........
+21:48:06.172 [main] INFO  - CompareProduct test ended........
+21:48:06.174 [main] INFO  - Negative Test: Add to compare without selecting product started...
+21:48:06.916 [main] INFO  - Negative Test: Add to compare without selecting product ended.
+21:48:09.199 [main] INFO  - addtocart test started........
+21:48:14.655 [main] INFO  - addtocart test started........
+21:48:37.265 [main] INFO  - Negative test: Estimate shipping with invalid details started
+21:48:44.176 [main] INFO  - Negative test: Estimate shipping with invalid details finished
+21:48:46.800 [main] INFO  - endtoened test started........
+21:48:48.312 [main] INFO  - ****validating expected message *****
+21:49:37.115 [main] INFO  - endtoened test finished........
