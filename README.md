@@ -1,41 +1,41 @@
 # 🛒 EcommerceV21 – Selenium Test Automation Framework
 
+![Java](https://img.shields.io/badge/Java-17+-blue) ![Selenium](https://img.shields.io/badge/Selenium-WebDriver-orange) ![TestNG](https://img.shields.io/badge/TestNG-7.8-green) ![Maven](https://img.shields.io/badge/Maven-3.9.0-red)
+
 ## 📌 Overview
 
-EcommerceV21 is a **Selenium Test Automation Framework** built using **Java, TestNG, and Maven**.  
+EcommerceV21 is a **Selenium Test Automation Framework** built using **Java, TestNG, and Maven**.
 It automates key workflows of an **eCommerce web application** (login, product search, cart, checkout, wishlist, etc.) following the **Page Object Model (POM)** design pattern.
 
 This project demonstrates:
 
-* ✅ Scalable test automation structure  
-* ✅ Reusable page objects & utilities  
-* ✅ Configurable test execution  
-* ✅ **Data-driven testing** using CSV/Excel with TestNG `@DataProvider`  
-* ✅ Advanced reporting with **Extent Reports** (reports generated in `reports/` folder)  
-* ✅ **Parallel execution** support for faster test runs  
-* ✅ **Jenkins CI/CD pipeline** ready  
-* ✅ **Dockerized Selenium Grid setup** for cross-browser and distributed testing  
-* ✅ End-to-end functional test coverage  
+* ✅ Scalable test automation structure
+* ✅ Reusable page objects & utilities
+* ✅ Configurable test execution
+* ✅ **Data-driven testing** using CSV/Excel with TestNG `@DataProvider`
+* ✅ Advanced reporting with **Extent Reports** (reports generated in `reports/` folder)
+* ✅ **Parallel execution** support for faster test runs
+* ✅ **Jenkins CI/CD pipeline** ready
+* ✅ **Dockerized Selenium Grid setup** for cross-browser and distributed testing
+* ✅ End-to-end functional test coverage
 
 ---
 
 ## ⚙️ Tech Stack
 
-* **Language:** Java (JDK 17+)  
-* **Build Tool:** Maven  
-* **Test Framework:** TestNG  
-* **UI Automation:** Selenium WebDriver  
-* **Design Pattern:** Page Object Model (POM)  
-* **Data-Driven Testing:** CSV/Excel files (`@DataProvider` in TestNG)  
-* **Reports:** TestNG + Extent Reports (HTML in `reports/` folder)  
-* **CI/CD:** Jenkins (pipeline integration)  
-* **Cross-Browser Execution:** Selenium Grid + Docker  
+* **Language:** Java (JDK 17+)
+* **Build Tool:** Maven
+* **Test Framework:** TestNG
+* **UI Automation:** Selenium WebDriver
+* **Design Pattern:** Page Object Model (POM)
+* **Data-Driven Testing:** CSV/Excel files (`@DataProvider` in TestNG)
+* **Reports:** TestNG + Extent Reports (HTML in `reports/` folder)
+* **CI/CD:** Jenkins (pipeline integration)
+* **Cross-Browser Execution:** Selenium Grid + Docker
 
 ---
 
 ## 📂 Project Structure
-
-
 
 ```
 EcommerceV21/
@@ -86,29 +86,27 @@ mvn clean test -DsuiteXmlFile=testng.xml
 
 ### 4️⃣ Parallel Execution
 
-Parallel execution is configured in `Paralleltesting.xml` (thread count can be adjusted).
-Trigger:
+Parallel execution is configured in `Paralleltesting.xml` (thread count can be adjusted). Trigger:
 
 ```bash
 mvn test
 ```
 
-and TestNG will execute tests in multiple threads for faster feedback.
+TestNG will execute tests in multiple threads for faster feedback.
 
 ---
 
-## ⚡ Features
+## ⚡ QA Practices Implemented
 
-* Centralized driver setup & teardown
-* Data-driven tests using CSV/Excel via TestNG @DataProvider
-* Reusable page methods to reduce code duplication
+* Explicit waits and synchronization
+* Positive & negative test cases
+* Data-driven testing using `@DataProvider`
+* Page Object Model (POM) for reusable page methods
 * Assertions for validation of expected results
-* Extent Reports for detailed HTML execution reports
+* Error handling and logging
 * Screenshots on failure for debugging
-* Parallel execution for faster test runs
-* Jenkins CI/CD pipeline integration
-* Dockerized Selenium Grid for cross-browser & distributed testing
-* End-to-end workflows automated (Login → Product Search → Cart → Checkout → Logout)
+* Parallel execution for faster test feedback
+* End-to-end workflows (Login → Product Search → Cart → Checkout → Logout)
 
 ---
 
@@ -148,3 +146,22 @@ Hi, I’m Siva Kaviyamalya 👋 — an aspiring Automation Test Engineer passion
 
 * 📧 Email: [kaviyamalya3000@gmail.com](mailto:kaviyamalya3000@gmail.com)
 * 🔗 LinkedIn: [linkedin.com/in/kaviyamalya610](https://linkedin.com/in/kaviyamalya610)
+
+---
+
+## 🖼 Screenshots
+
+
+![Test Execution Report](screenshots/report.png)
+
+---
+
+## 🏷️ Badges
+
+* Java 17+
+* Selenium WebDriver
+* TestNG 7.8
+* Maven 3.9.0
+
+---
+
