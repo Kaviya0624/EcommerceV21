@@ -179,5 +179,146 @@ public class TC001_AccountResgistrationTest extends BaseClass
 
 	    logger.info("***Negative test: Password mismatch finished***");
 	}
+	
+	
+	@Test(priority=5, groups={"Negative"})
+	public void verify_RegistrationWithEmptyLastName() {
+	    try {
+	        logger.info("***Negative test: Empty last name started***");
+
+	        HomePage hp = new HomePage(driver);
+	        hp.clickMyAccount();
+	        hp.clickRegister();
+
+	        AccountRegistrationPage ap = new AccountRegistrationPage(driver);
+	        ap.Enterfirst(randomString().toUpperCase());
+	        ap.Entersecond(""); // empty last name
+	        ap.Enteremail(randomString()+"@gmail.com");
+	        ap.Entermobile(randomNum());
+
+	        String password = randomAlphaNumeric();
+	        ap.EnterPass(password);
+	        ap.EnterPass2(password);
+
+	        ap.clickSubscribe();
+	        ap.clickPolicy();
+	        ap.clickContinue();
+
+	        String confmsg = ap.getConfirmationMsg();
+	        Assert.assertFalse(confmsg.equals("Your Account Has Been Created!"), 
+	            "Registration should fail with empty last name");
+
+	    } catch(Exception e) {
+	        logger.error("Exception: " + e.getMessage());
+	        Assert.fail();
+	    }
+	    logger.info("***Negative test: Empty last name finished***");
+	}
+
+
+	@Test(priority=6, groups={"Negative"})
+	public void verify_RegistrationWithoutAcceptingPolicy() {
+	    try {
+	        logger.info("***Negative test: Policy not accepted started***");
+
+	        HomePage hp = new HomePage(driver);
+	        hp.clickMyAccount();
+	        hp.clickRegister();
+
+	        AccountRegistrationPage ap = new AccountRegistrationPage(driver);
+	        ap.Enterfirst(randomString().toUpperCase());
+	        ap.Entersecond(randomString().toUpperCase());
+	        ap.Enteremail(randomString()+"@gmail.com");
+	        ap.Entermobile(randomNum());
+
+	        String password = randomAlphaNumeric();
+	        ap.EnterPass(password);
+	        ap.EnterPass2(password);
+
+	        ap.clickSubscribe();
+	        // ❌ ap.clickPolicy(); // Do NOT accept terms
+
+	        ap.clickContinue();
+
+	        String confmsg = ap.getConfirmationMsg();
+	        Assert.assertFalse(confmsg.equals("Your Account Has Been Created!"), 
+	            "Registration should fail without accepting policy");
+
+	    } catch(Exception e) {
+	        logger.error("Exception: " + e.getMessage());
+	        Assert.fail();
+	    }
+	    logger.info("***Negative test: Policy not accepted finished***");
+	}
+
+
+	@Test(priority=7, groups={"Negative"})
+	public void verify_RegistrationWithExistingEmail() {
+	    try {
+	        logger.info("***Negative test: Existing email started***");
+
+	        HomePage hp = new HomePage(driver);
+	        hp.clickMyAccount();
+	        hp.clickRegister();
+
+	        AccountRegistrationPage ap = new AccountRegistrationPage(driver);
+	        ap.Enterfirst(randomString().toUpperCase());
+	        ap.Entersecond(randomString().toUpperCase());
+	        ap.Enteremail(p.getProperty("email")); // use known registered email
+	        ap.Entermobile(randomNum());
+
+	        String password = randomAlphaNumeric();
+	        ap.EnterPass(password);
+	        ap.EnterPass2(password);
+
+	        ap.clickSubscribe();
+	        ap.clickPolicy();
+	        ap.clickContinue();
+
+	        String confmsg = ap.getConfirmationMsg();
+	        Assert.assertFalse(confmsg.equals("Your Account Has Been Created!"), 
+	            "Registration should fail with existing email");
+
+	    } catch(Exception e) {
+	        logger.error("Exception: " + e.getMessage());
+	        Assert.fail();
+	    }
+	    logger.info("***Negative test: Existing email finished***");
+	}
+
+
+	@Test(priority=8, groups={"Boundary"})
+	public void verify_RegistrationWithShortPassword() {
+	    try {
+	        logger.info("***Boundary test: Short password started***");
+
+	        HomePage hp = new HomePage(driver);
+	        hp.clickMyAccount();
+	        hp.clickRegister();
+
+	        AccountRegistrationPage ap = new AccountRegistrationPage(driver);
+	        ap.Enterfirst(randomString().toUpperCase());
+	        ap.Entersecond(randomString().toUpperCase());
+	        ap.Enteremail(randomString()+"@gmail.com");
+	        ap.Entermobile(randomNum());
+
+	        ap.EnterPass("123"); // very short
+	        ap.EnterPass2("123");
+
+	        ap.clickSubscribe();
+	        ap.clickPolicy();
+	        ap.clickContinue();
+
+	        String confmsg = ap.getConfirmationMsg();
+	        Assert.assertFalse(confmsg.equals("Your Account Has Been Created!"), 
+	            "Registration should fail with short password");
+
+	    } catch(Exception e) {
+	        logger.error("Exception: " + e.getMessage());
+	        Assert.fail();
+	    }
+	    logger.info("***Boundary test: Short password finished***");
+	}
+
 
 }

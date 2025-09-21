@@ -24,6 +24,12 @@ public class SearchPage extends BasePage{
 	
 	@FindBy(xpath = "//p[contains(text(),'There is no product that matches the search criter')]") // update selector according to your app
 	 WebElement noProductMsg;
+	
+	 @FindBy(xpath = "//div[@class='product-thumb']")
+	 List<WebElement> searchResults;
+	 
+	 @FindBy(xpath = "//ul[@class='pagination']//li[@class='next']")
+	  WebElement nextPageButton;
 
 	public String getNoProductMessage() 
 	{
@@ -70,5 +76,11 @@ public class SearchPage extends BasePage{
 		}
 	
 	}
+	
+	public int getSearchResultCount()
+	{
+        return searchResults.size();
+    }
+	 
 
 }

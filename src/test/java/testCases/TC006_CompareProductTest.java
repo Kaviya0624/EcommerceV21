@@ -1,8 +1,12 @@
 package testCases;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -150,5 +154,39 @@ public class TC006_CompareProductTest extends BaseClass {
 	    }
 	}
 	
+//	@Test(priority=3, groups={"Sanity"})
+//	public void verifyComparePageUIElements() {
+//	    try {
+//	        logger.info("Positive Test: Verify Compare Page UI Elements started...");
+//
+//	        CompareProduct cp = new CompareProduct(driver);
+//	        
+//	        cp.clickDesktop();
+//	        cp.clickShowAllDesktop();
+//	        
+//	        JavascriptExecutor js = (JavascriptExecutor) driver;
+//	        js.executeScript("window.scrollBy(0,1500)", "");
+//	        cp.clickMacbook();
+//	    	cp.clickAddTocompare();
+//	    	driver.navigate().back();
+//	    	cp.clickMacBookair();
+//	    	cp.clickAddTocompare();
+//	    	driver.navigate().back();
+//	    	 cp.clickProduchCompare();
+//
+////	        Assert.assertTrue(cp.isHeaderDisplayed(), "Compare page header not displayed");
+////	        Assert.assertTrue(cp.isProductImageDisplayed(), "MacBook image not displayed");
+////	        Assert.assertTrue(cp.isProductPriceDisplayed(), "MacBook price not displayed");
+//
+//	        logger.info("Positive Test: Verify Compare Page UI Elements finished.");
+//
+//	    } catch (Exception e) {
+//	        logger.error("Exception in verifyComparePageUIElements: " + e.getMessage());
+//	        Assert.fail();
+//	    }
+//	}
+//
+//	
 	
+	 
 }

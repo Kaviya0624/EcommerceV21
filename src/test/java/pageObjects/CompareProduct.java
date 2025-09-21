@@ -67,6 +67,15 @@ public class CompareProduct extends BasePage {
 	@FindBy(xpath="//p[normalize-space()='You have not chosen any products to compare.']")
 	WebElement errormsg;
 	
+	@FindBy(xpath="//h1[normalize-space()='Product Comparison']")
+	WebElement header;
+	
+	@FindBy(xpath="//td[normalize-space()='Price']")
+	WebElement price;
+	
+	@FindBy(xpath="//img[@title='MacBook']")
+	WebElement cmpimg;
+	
 	public String getErrorMessage() {
 	    try 
 	    {
@@ -179,6 +188,24 @@ public class CompareProduct extends BasePage {
 		{
 			return (e.getMessage());
 		}
+	}
+
+
+	public boolean  isHeaderDisplayed() 
+	{
+	
+		return header.isDisplayed();
+		
+	}
+	public boolean isProductPriceDisplayed() {
+		
+		return price.isDisplayed();
+	}
+
+
+	public boolean isProductImageDisplayed() {
+		
+		return cmpimg.isDisplayed();
 	}
 	
 	

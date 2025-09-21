@@ -9,7 +9,9 @@
 		<!-- <include name="Sanity"/>
 		     <exclude name="Datadriven"/> 
 			<include name="Regression"/> 
-			<include name="Negative"/>-->
+			<include name="Negative"/>
+			<include name="Boundary"/>
+			<include name="Security"/>-->
 	</run>
 	
   </groups>

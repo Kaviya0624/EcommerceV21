@@ -1,379 +1,163 @@
-00:01:11.046 [main] INFO  - Wishlist test started........
-00:01:23.679 [main] INFO  - Negative test: Add to wishlist without login started
-00:01:24.324 [main] INFO  - Negative test: Add to wishlist without login finished
-00:03:55.670 [main] INFO  - Wishlist test started........
-00:04:00.201 [main] INFO  - Wishlist test ended........
-00:04:00.807 [main] INFO  - Negative test: Add to wishlist without login started
-00:04:01.511 [main] INFO  - Negative test: Add to wishlist without login finished
-00:04:34.493 [main] INFO  - ****Starting testcase a *****
-00:04:34.761 [main] INFO  - ****clicked myaccount *****
-00:04:35.171 [main] INFO  - ****clicked register *****
-00:04:35.181 [main] INFO  - ****customer details *****
-00:04:36.856 [main] INFO  - ****validating expected message *****
-00:04:37.558 [main] INFO  - ****test executed*****
-00:04:37.632 [main] INFO  - ***Negative test: Empty first name started***
-00:04:49.360 [main] INFO  - ***Negative test: Empty first name finished***
-00:04:49.364 [main] INFO  - ***Negative test: Invalid email started***
-00:05:00.725 [main] INFO  - ***Negative test: Invalid email finished***
-00:05:00.735 [main] INFO  - ***Negative test: Password mismatch started***
-00:05:12.179 [main] INFO  - ***Negative test: Password mismatch finished***
-00:05:16.602 [main] INFO  - ***login started******
-00:05:18.600 [main] INFO  - ***finsihed login started******
-00:05:18.615 [main] INFO  - ***Negative login test: Invalid credentials started***
-00:05:19.669 [main] INFO  - ***Negative login test: Invalid credentials finished***
-00:05:19.673 [main] INFO  - ***Negative login test: Empty username started***
-00:05:20.598 [main] INFO  - ***Negative login test: Empty username finished***
-00:05:20.601 [main] INFO  - ***Negative login test: Empty password started***
-00:05:21.656 [main] INFO  - ***Negative login test: Empty password finished***
-00:05:27.944 [main] INFO  - ***login started******
-00:05:29.807 [main] INFO  - ***login started******
-00:05:40.891 [main] INFO  - ***login started******
-00:05:51.969 [main] INFO  - ***login started******
-00:06:02.790 [main] INFO  - ***login started******
-00:06:17.495 [main] INFO  - search case started......
-00:06:25.170 [main] INFO  - search case ended......
-00:06:25.182 [main] INFO  - Negative test: Search non-existing product started
-00:06:27.981 [main] INFO  - Negative test: Search non-existing product finished
-00:06:27.987 [main] INFO  - Negative test: Search with empty input started
-00:06:30.455 [main] INFO  - Negative test: Search with empty input finished
-00:06:30.463 [main] INFO  - Negative test: Search with special characters started
-00:06:32.913 [main] INFO  - Negative test: Search with special characters finished
-00:06:35.750 [main] INFO  - addtocart test started........
-00:06:43.531 [main] INFO  - CompareProduct test started........
-00:06:53.506 [main] INFO  - Wishlist test started........
-00:07:05.711 [main] INFO  - Negative test: Add to wishlist without login started
-00:07:06.333 [main] INFO  - Negative test: Add to wishlist without login finished
-00:07:09.426 [main] INFO  - addtocart test started........
-00:07:24.262 [main] INFO  - endtoened test started........
-00:07:27.799 [main] INFO  - ****validating expected message *****
-00:08:18.636 [main] INFO  - endtoened test finished........
-00:10:56.194 [main] INFO  - addtocart test started........
-00:10:58.939 [main] INFO  - addtocart test ended........
-00:12:44.331 [main] INFO  - addtocart test started........
-00:15:43.120 [main] INFO  - ****Starting testcase a *****
-00:15:43.379 [main] INFO  - ****clicked myaccount *****
-00:15:43.940 [main] INFO  - ****clicked register *****
-00:15:44.018 [main] INFO  - ****customer details *****
-00:15:45.726 [main] INFO  - ****validating expected message *****
-00:15:46.298 [main] INFO  - ****test executed*****
-00:15:46.417 [main] INFO  - ***Negative test: Empty first name started***
-00:15:58.253 [main] INFO  - ***Negative test: Empty first name finished***
-00:15:58.263 [main] INFO  - ***Negative test: Invalid email started***
-00:16:09.915 [main] INFO  - ***Negative test: Invalid email finished***
-00:16:09.938 [main] INFO  - ***Negative test: Password mismatch started***
-00:16:21.930 [main] INFO  - ***Negative test: Password mismatch finished***
-00:16:25.438 [main] INFO  - ***login started******
-00:16:27.142 [main] INFO  - ***finsihed login started******
-00:16:27.156 [main] INFO  - ***Negative login test: Invalid credentials started***
-00:16:28.118 [main] INFO  - ***Negative login test: Invalid credentials finished***
-00:16:28.125 [main] INFO  - ***Negative login test: Empty username started***
-00:16:28.993 [main] INFO  - ***Negative login test: Empty username finished***
-00:16:28.998 [main] INFO  - ***Negative login test: Empty password started***
-00:16:29.937 [main] INFO  - ***Negative login test: Empty password finished***
-00:16:32.512 [main] INFO  - search case started......
-00:16:40.003 [main] INFO  - search case ended......
-00:16:40.006 [main] INFO  - Negative test: Search non-existing product started
-00:16:42.623 [main] INFO  - Negative test: Search non-existing product finished
-00:16:42.626 [main] INFO  - Negative test: Search with empty input started
-00:16:45.168 [main] INFO  - Negative test: Search with empty input finished
-00:16:45.172 [main] INFO  - Negative test: Search with special characters started
-00:16:47.741 [main] INFO  - Negative test: Search with special characters finished
-00:16:51.205 [main] INFO  - Wishlist test started........
-00:17:03.687 [main] INFO  - Negative test: Add to wishlist without login started
-00:17:04.485 [main] INFO  - Negative test: Add to wishlist without login finished
-00:17:06.999 [main] INFO  - CompareProduct test started........
-00:17:11.901 [main] INFO  - CompareProduct test ended........
-00:17:15.531 [main] INFO  - addtocart test started........
-00:17:18.102 [main] INFO  - addtocart test ended........
-00:17:21.164 [main] INFO  - addtocart test started........
-00:17:48.546 [main] INFO  - endtoened test started........
-00:17:51.254 [main] INFO  - ****validating expected message *****
-00:21:47.781 [main] INFO  - Wishlist test started........
-00:21:50.944 [main] INFO  - Negative test: Add to wishlist without login started
-00:21:51.661 [main] INFO  - Negative test: Add to wishlist without login finished
-00:24:58.852 [main] INFO  - Wishlist test started........
-00:25:10.627 [main] INFO  - Negative test: Add to wishlist without login started
-00:25:12.649 [main] INFO  - Negative test: Add to wishlist without login finished
-00:27:24.628 [main] INFO  - Wishlist test started........
-00:27:32.203 [main] INFO  - Wishlist test ended........
-00:27:32.752 [main] INFO  - Negative test: Add to wishlist without login started
-00:27:33.456 [main] INFO  - Negative test: Add to wishlist without login finished
-00:29:02.915 [main] INFO  - Wishlist test started........
-00:29:10.634 [main] INFO  - Wishlist test ended........
-00:29:11.109 [main] INFO  - Negative test: Add to wishlist without login started
-00:29:11.753 [main] INFO  - Negative test: Add to wishlist without login finished
-19:15:12.287 [main] INFO  - CompareProduct test started........
-19:15:16.525 [main] INFO  - CompareProduct test ended........
-19:15:16.587 [main] INFO  - Negative Test: Add to compare without selecting product started...
-19:21:23.303 [main] INFO  - CompareProduct test started........
-19:21:28.966 [main] INFO  - CompareProduct test ended........
-19:21:29.023 [main] INFO  - Negative Test: Add to compare without selecting product started...
-19:21:29.840 [main] INFO  - Negative Test: Add to compare without selecting product ended.
-19:21:55.904 [main] INFO  - CompareProduct test started........
-19:22:01.005 [main] INFO  - Negative Test: Add to compare without selecting product started...
-19:22:48.189 [main] INFO  - CompareProduct test started........
-19:22:56.010 [main] INFO  - CompareProduct test ended........
-19:22:56.048 [main] INFO  - Negative Test: Add to compare without selecting product started...
-19:22:56.934 [main] INFO  - Negative Test: Add to compare without selecting product ended.
-19:37:08.462 [main] INFO  - addtocart test started........
-19:37:23.474 [main] INFO  - Negative test: Estimate shipping with invalid details started
-19:37:34.173 [main] ERROR - Exception in estimateShippingWithInvalidDetails: Cannot locate option with text: InvalidCountry
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: driver.version: unknown
-19:39:44.150 [main] INFO  - addtocart test started........
-19:40:08.327 [main] INFO  - Negative test: Estimate shipping with invalid details started
-19:40:18.959 [main] ERROR - Exception in estimateShippingWithInvalidDetails: Cannot locate option with text: InvalidCountry
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: driver.version: unknown
-19:55:10.650 [main] INFO  - addtocart test started........
-19:55:34.670 [main] INFO  - Negative test: Estimate shipping with invalid details started
-19:55:45.440 [main] ERROR - Exception in estimateShippingWithInvalidDetails: Cannot locate option with text: InvalidCountry
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: driver.version: unknown
-20:01:21.653 [main] INFO  - addtocart test started........
-20:01:45.702 [main] INFO  - Negative test: Estimate shipping with invalid details started
-20:02:07.575 [main] ERROR - Exception in estimateShippingWithInvalidDetails: element not interactable
-  (Session info: chrome=140.0.7339.128)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5cb7cd2fc5833e7f54e828e6f115366f, clearElement {id=f.5581CD4C31B7AB201F71DFEE6503B6BF.d.35414A070113A6B19E02F3FE10750F2C.e.275}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59551/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (5cb7cd2fc5833e7f54e828e6f115366f)] -> xpath: //input[@id='input-coupon']]
-Session ID: 5cb7cd2fc5833e7f54e828e6f115366f
-20:15:04.987 [main] INFO  - addtocart test started........
-20:15:29.837 [main] INFO  - Negative test: Estimate shipping with invalid details started
-20:15:41.141 [main] ERROR - Exception in estimateShippingWithInvalidDetails: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='shipping_method']"}
+20:10:49.911 [main] INFO  - Positive Test: Verify Compare Page UI Elements started...
+20:11:01.522 [main] ERROR - Exception in verifyComparePageUIElements: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='compare-total']"}
   (Session info: chrome=140.0.7339.128)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.35.0', revision: '1c58e5028b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [022961324e699bdd784b75faac80859f, findElement {using=xpath, value=//input[@name='shipping_method']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59982}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59982/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 022961324e699bdd784b75faac80859f
-20:19:47.605 [main] INFO  - addtocart test started........
-20:20:10.243 [main] INFO  - Negative test: Estimate shipping with invalid details started
-20:20:21.132 [main] ERROR - Exception in estimateShippingWithInvalidDetails: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='shipping_method']"}
+Command: [b7f10739bc157f905d1e364869609bc9, findElement {value=//a[@id='compare-total'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55163}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55163/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7f10739bc157f905d1e364869609bc9
+20:11:21.776 [main] INFO  - Positive Test: Verify Compare Page UI Elements started...
+20:11:23.824 [main] INFO  - Positive Test: Verify Compare Page UI Elements finished.
+20:11:56.504 [main] INFO  - CompareProduct test started........
+20:12:03.895 [main] INFO  - CompareProduct test ended........
+20:12:03.940 [main] INFO  - Positive Test: Verify Compare Page UI Elements started...
+20:12:14.483 [main] ERROR - Exception in verifyComparePageUIElements: element not interactable
   (Session info: chrome=140.0.7339.128)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.35.0', revision: '1c58e5028b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4903fd3ea0078b403464f546816b6eb5, findElement {using=xpath, value=//input[@name='shipping_method']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60198}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60198/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4903fd3ea0078b403464f546816b6eb5
-20:22:51.939 [main] INFO  - addtocart test started........
-20:23:14.728 [main] INFO  - Negative test: Estimate shipping with invalid details started
-20:23:35.387 [main] ERROR - Exception in estimateShippingWithInvalidDetails: Cannot locate option with text: Tamil Nadu
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: driver.version: unknown
-20:25:53.384 [main] INFO  - addtocart test started........
-20:26:15.793 [main] INFO  - Negative test: Estimate shipping with invalid details started
-20:26:26.663 [main] ERROR - Exception in estimateShippingWithInvalidDetails: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='shipping_method']"}
+Command: [05861f681b85d0f0b89a1d1d92ad6527, clickElement {id=f.90E51B4D89FD95B31513B86A0658A8ED.d.FC280D93E928EFB4B1A478F805DEA96F.e.251}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55265}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55265/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (05861f681b85d0f0b89a1d1d92ad6527)] -> xpath: //a[normalize-space()='MacBook']]
+Session ID: 05861f681b85d0f0b89a1d1d92ad6527
+20:12:14.605 [main] INFO  - Negative Test: Add to compare without selecting product started...
+20:12:15.286 [main] INFO  - Negative Test: Add to compare without selecting product ended.
+20:13:01.033 [main] INFO  - CompareProduct test started........
+20:13:07.881 [main] INFO  - CompareProduct test ended........
+20:13:07.925 [main] INFO  - Negative Test: Add to compare without selecting product started...
+20:13:08.632 [main] INFO  - Negative Test: Add to compare without selecting product ended.
+20:13:08.637 [main] INFO  - Positive Test: Verify Compare Page UI Elements started...
+20:13:21.094 [main] ERROR - Exception in verifyComparePageUIElements: element not interactable
   (Session info: chrome=140.0.7339.128)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.35.0', revision: '1c58e5028b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5b3045446bcac3b0d538c34cb676aaaa, findElement {using=xpath, value=//input[@name='shipping_method']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60488}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60488/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5b3045446bcac3b0d538c34cb676aaaa
-20:30:43.252 [main] INFO  - addtocart test started........
-20:31:06.098 [main] INFO  - Negative test: Estimate shipping with invalid details started
-20:31:17.084 [main] ERROR - Exception in estimateShippingWithInvalidDetails: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='shipping_method']"}
+Command: [b4451779b6d1c0ba40b8c421c1a44de0, clickElement {id=f.8C2A04BCDFA138707C847C7D048C55E2.d.DDD60C9643F6EFA40BC68D427346A7DB.e.288}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55349}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55349/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b4451779b6d1c0ba40b8c421c1a44de0)] -> xpath: //a[normalize-space()='MacBook']]
+Session ID: b4451779b6d1c0ba40b8c421c1a44de0
+20:17:19.000 [main] INFO  - CompareProduct test started........
+20:17:26.253 [main] INFO  - CompareProduct test ended........
+20:17:26.292 [main] INFO  - Negative Test: Add to compare without selecting product started...
+20:17:26.997 [main] INFO  - Negative Test: Add to compare without selecting product ended.
+20:17:27.007 [main] INFO  - Positive Test: Verify Compare Page UI Elements started...
+20:17:27.448 [main] ERROR - Exception in verifyComparePageUIElements: element not interactable: https://awesomeqa.com/ui/index.php?route=product/product&product_id=43 has no size and location
   (Session info: chrome=140.0.7339.128)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.35.0', revision: '1c58e5028b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0236f0ee797bd2f81da168735930501d, findElement {value=//input[@name='shipping_method'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60695}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60695/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0236f0ee797bd2f81da168735930501d
-20:35:17.031 [main] INFO  - addtocart test started........
-20:35:40.448 [main] INFO  - Negative test: Estimate shipping with invalid details started
-20:35:51.318 [main] ERROR - Exception in estimateShippingWithInvalidDetails: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='shipping_method']"}
+Command: [363fefce82dad20b734ae44d920be716, actions {actions=[org.openqa.selenium.interactions.Sequence@306f6f1d]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55577}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55577/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 363fefce82dad20b734ae44d920be716
+20:18:35.834 [main] INFO  - CompareProduct test started........
+20:18:42.398 [main] INFO  - CompareProduct test ended........
+20:18:42.440 [main] INFO  - Negative Test: Add to compare without selecting product started...
+20:18:43.191 [main] INFO  - Negative Test: Add to compare without selecting product ended.
+20:18:43.194 [main] INFO  - Positive Test: Verify Compare Page UI Elements started...
+20:18:43.663 [main] ERROR - Exception in verifyComparePageUIElements: element not interactable: https://awesomeqa.com/ui/index.php?route=product/product&product_id=43 has no size and location
   (Session info: chrome=140.0.7339.128)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.35.0', revision: '1c58e5028b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3a91856d5c83cafd9f067d23e0f1451e, findElement {value=//input[@name='shipping_method'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60883}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60883/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3a91856d5c83cafd9f067d23e0f1451e
-20:38:48.253 [main] INFO  - addtocart test started........
-20:39:10.969 [main] INFO  - Negative test: Estimate shipping with invalid details started
-20:39:21.829 [main] ERROR - Exception in estimateShippingWithInvalidDetails: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='shipping_method']"}
+Command: [c6c6d4f87d88f27ef835d6c593a54c0f, actions {actions=[org.openqa.selenium.interactions.Sequence@606f81b5]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55660}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55660/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c6c6d4f87d88f27ef835d6c593a54c0f
+20:19:14.133 [main] INFO  - CompareProduct test started........
+20:19:20.723 [main] INFO  - CompareProduct test ended........
+20:19:20.751 [main] INFO  - Negative Test: Add to compare without selecting product started...
+20:19:21.507 [main] INFO  - Negative Test: Add to compare without selecting product ended.
+20:19:21.511 [main] INFO  - Positive Test: Verify Compare Page UI Elements started...
+20:19:21.999 [main] ERROR - Exception in verifyComparePageUIElements: element not interactable: https://awesomeqa.com/ui/index.php?route=product/product&product_id=43 has no size and location
   (Session info: chrome=140.0.7339.128)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.35.0', revision: '1c58e5028b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f97770458a7eb345db7bd92972156b26, findElement {using=xpath, value=//input[@name='shipping_method']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61025}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61025/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f97770458a7eb345db7bd92972156b26
-20:44:07.620 [main] INFO  - addtocart test started........
-20:44:30.897 [main] INFO  - Negative test: Estimate shipping with invalid details started
-20:46:50.551 [main] INFO  - addtocart test started........
-20:47:13.449 [main] INFO  - Negative test: Estimate shipping with invalid details started
-20:47:20.378 [main] INFO  - Negative test: Estimate shipping with invalid details finished
-20:48:58.362 [main] INFO  - addtocart test started........
-20:49:21.013 [main] INFO  - Negative test: Estimate shipping with invalid details started
-20:49:27.907 [main] INFO  - Negative test: Estimate shipping with invalid details finished
-20:52:14.597 [main] INFO  - ****Starting testcase a *****
-20:52:14.741 [main] INFO  - ****clicked myaccount *****
-20:52:15.073 [main] INFO  - ****clicked register *****
-20:52:15.076 [main] INFO  - ****customer details *****
-20:52:16.249 [main] INFO  - ****validating expected message *****
-20:52:16.691 [main] INFO  - ****test executed*****
-20:52:16.745 [main] INFO  - ***Negative test: Empty first name started***
-20:52:27.784 [main] INFO  - ***Negative test: Empty first name finished***
-20:52:27.788 [main] INFO  - ***Negative test: Invalid email started***
-20:52:38.800 [main] INFO  - ***Negative test: Invalid email finished***
-20:52:38.809 [main] INFO  - ***Negative test: Password mismatch started***
-20:52:49.868 [main] INFO  - ***Negative test: Password mismatch finished***
-20:52:52.408 [main] INFO  - ***login started******
-20:52:53.763 [main] INFO  - ***finsihed login started******
-20:52:53.775 [main] INFO  - ***Negative login test: Invalid credentials started***
-20:52:54.525 [main] INFO  - ***Negative login test: Invalid credentials finished***
-20:52:54.528 [main] INFO  - ***Negative login test: Empty username started***
-20:52:55.191 [main] INFO  - ***Negative login test: Empty username finished***
-20:52:55.194 [main] INFO  - ***Negative login test: Empty password started***
-20:52:55.895 [main] INFO  - ***Negative login test: Empty password finished***
-20:52:59.203 [main] INFO  - ***login started******
-20:53:00.446 [main] INFO  - ***login started******
-20:53:11.194 [main] INFO  - ***login started******
-20:53:21.975 [main] INFO  - ***login started******
-20:53:32.663 [main] INFO  - ***login started******
-20:53:45.009 [main] INFO  - search case started......
-20:53:52.213 [main] INFO  - search case ended......
-20:53:52.219 [main] INFO  - Negative test: Search non-existing product started
-20:53:54.649 [main] INFO  - Negative test: Search non-existing product finished
-20:53:54.651 [main] INFO  - Negative test: Search with empty input started
-20:53:57.118 [main] INFO  - Negative test: Search with empty input finished
-20:53:57.121 [main] INFO  - Negative test: Search with special characters started
-20:53:59.543 [main] INFO  - Negative test: Search with special characters finished
-20:54:01.384 [main] INFO  - Wishlist test started........
-20:54:09.567 [main] INFO  - Wishlist test ended........
-20:54:10.245 [main] INFO  - Negative test: Add to wishlist without login started
-20:54:10.816 [main] INFO  - Negative test: Add to wishlist without login finished
-20:54:12.779 [main] INFO  - CompareProduct test started........
-20:54:19.583 [main] INFO  - CompareProduct test ended........
-20:54:19.585 [main] INFO  - Negative Test: Add to compare without selecting product started...
-20:54:20.277 [main] INFO  - Negative Test: Add to compare without selecting product ended.
-20:54:22.259 [main] INFO  - addtocart test started........
-20:54:24.274 [main] INFO  - addtocart test ended........
-20:54:26.163 [main] INFO  - addtocart test started........
-20:54:48.715 [main] INFO  - Negative test: Estimate shipping with invalid details started
-20:54:55.669 [main] INFO  - Negative test: Estimate shipping with invalid details finished
-20:54:57.628 [main] INFO  - endtoened test started........
-20:54:59.563 [main] INFO  - ****validating expected message *****
-20:55:48.297 [main] INFO  - endtoened test finished........
-21:09:07.297 [main] INFO  - ****Starting testcase a *****
-21:09:07.506 [main] INFO  - ****clicked myaccount *****
-21:09:08.135 [main] INFO  - ****clicked register *****
-21:09:08.137 [main] INFO  - ****customer details *****
-21:09:10.159 [main] INFO  - ****validating expected message *****
-21:09:10.767 [main] INFO  - ****test executed*****
-21:09:10.868 [main] INFO  - ***Negative test: Empty first name started***
-21:09:22.477 [main] INFO  - ***Negative test: Empty first name finished***
-21:09:22.485 [main] INFO  - ***Negative test: Invalid email started***
-21:09:34.548 [main] INFO  - ***Negative test: Invalid email finished***
-21:09:34.572 [main] INFO  - ***Negative test: Password mismatch started***
-21:09:46.758 [main] INFO  - ***Negative test: Password mismatch finished***
-21:09:49.260 [main] INFO  - ***login started******
-21:09:50.987 [main] INFO  - ***finsihed login started******
-21:09:50.992 [main] INFO  - ***Negative login test: Invalid credentials started***
-21:09:52.058 [main] INFO  - ***Negative login test: Invalid credentials finished***
-21:09:52.061 [main] INFO  - ***Negative login test: Empty username started***
-21:09:52.956 [main] INFO  - ***Negative login test: Empty username finished***
-21:09:52.960 [main] INFO  - ***Negative login test: Empty password started***
-21:09:53.878 [main] INFO  - ***Negative login test: Empty password finished***
-21:09:59.486 [main] INFO  - ***login started******
-21:10:01.311 [main] INFO  - ***login started******
-21:10:12.475 [main] INFO  - ***login started******
-21:10:23.180 [main] INFO  - ***login started******
-21:10:34.151 [main] INFO  - ***login started******
-21:10:47.699 [main] INFO  - search case started......
-21:10:55.028 [main] INFO  - search case ended......
-21:10:55.032 [main] INFO  - Negative test: Search non-existing product started
-21:10:57.535 [main] INFO  - Negative test: Search non-existing product finished
-21:10:57.540 [main] INFO  - Negative test: Search with empty input started
-21:11:00.379 [main] INFO  - Negative test: Search with empty input finished
-21:11:00.382 [main] INFO  - Negative test: Search with special characters started
-21:11:02.878 [main] INFO  - Negative test: Search with special characters finished
-21:11:05.180 [main] INFO  - Wishlist test started........
-21:11:07.176 [main] INFO  - Negative test: Add to wishlist without login started
-21:11:07.724 [main] INFO  - Negative test: Add to wishlist without login finished
-21:11:10.988 [main] INFO  - CompareProduct test started........
-21:11:18.961 [main] INFO  - CompareProduct test ended........
-21:11:18.964 [main] INFO  - Negative Test: Add to compare without selecting product started...
-21:11:19.800 [main] INFO  - Negative Test: Add to compare without selecting product ended.
-21:11:22.001 [main] INFO  - addtocart test started........
-21:11:24.687 [main] INFO  - addtocart test ended........
-21:11:28.799 [main] INFO  - addtocart test started........
-21:11:53.965 [main] INFO  - Negative test: Estimate shipping with invalid details started
-21:12:01.433 [main] INFO  - Negative test: Estimate shipping with invalid details finished
-21:12:04.859 [main] INFO  - endtoened test started........
-21:12:06.863 [main] INFO  - ****validating expected message *****
-21:12:56.857 [main] INFO  - endtoened test finished........
-21:14:01.007 [main] INFO  - Wishlist test started........
-21:14:08.674 [main] INFO  - Wishlist test ended........
-21:14:09.210 [main] INFO  - Negative test: Add to wishlist without login started
-21:14:09.928 [main] INFO  - Negative test: Add to wishlist without login finished
-21:46:01.021 [main] INFO  - ****Starting testcase a *****
-21:46:01.198 [main] INFO  - ****clicked myaccount *****
-21:46:01.607 [main] INFO  - ****clicked register *****
-21:46:01.612 [main] INFO  - ****customer details *****
-21:46:02.725 [main] INFO  - ****validating expected message *****
-21:46:03.146 [main] INFO  - ****test executed*****
-21:46:04.230 [main] INFO  - ***Negative test: Empty first name started***
-21:46:15.375 [main] INFO  - ***Negative test: Empty first name finished***
-21:46:15.380 [main] INFO  - ***Negative test: Invalid email started***
-21:46:26.354 [main] INFO  - ***Negative test: Invalid email finished***
-21:46:26.356 [main] INFO  - ***Negative test: Password mismatch started***
-21:46:37.372 [main] INFO  - ***Negative test: Password mismatch finished***
-21:46:39.499 [main] INFO  - ***login started******
-21:46:40.821 [main] INFO  - ***finsihed login started******
-21:46:40.824 [main] INFO  - ***Negative login test: Invalid credentials started***
-21:46:41.613 [main] INFO  - ***Negative login test: Invalid credentials finished***
-21:46:41.615 [main] INFO  - ***Negative login test: Empty username started***
-21:46:42.301 [main] INFO  - ***Negative login test: Empty username finished***
-21:46:42.307 [main] INFO  - ***Negative login test: Empty password started***
-21:46:43.059 [main] INFO  - ***Negative login test: Empty password finished***
-21:46:46.214 [main] INFO  - ***login started******
-21:46:47.498 [main] INFO  - ***login started******
-21:46:58.098 [main] INFO  - ***login started******
-21:47:08.696 [main] INFO  - ***login started******
-21:47:19.259 [main] INFO  - ***login started******
-21:47:33.659 [main] INFO  - search case started......
-21:47:40.752 [main] INFO  - search case ended......
-21:47:40.754 [main] INFO  - Negative test: Search non-existing product started
-21:47:43.136 [main] INFO  - Negative test: Search non-existing product finished
-21:47:43.138 [main] INFO  - Negative test: Search with empty input started
-21:47:45.615 [main] INFO  - Negative test: Search with empty input finished
-21:47:45.618 [main] INFO  - Negative test: Search with special characters started
-21:47:48.029 [main] INFO  - Negative test: Search with special characters finished
-21:47:50.747 [main] INFO  - Wishlist test started........
-21:47:57.343 [main] INFO  - Wishlist test ended........
-21:47:57.720 [main] INFO  - Negative test: Add to wishlist without login started
-21:47:58.138 [main] INFO  - Negative test: Add to wishlist without login finished
-21:47:59.779 [main] INFO  - CompareProduct test started........
-21:48:06.172 [main] INFO  - CompareProduct test ended........
-21:48:06.174 [main] INFO  - Negative Test: Add to compare without selecting product started...
-21:48:06.916 [main] INFO  - Negative Test: Add to compare without selecting product ended.
-21:48:09.199 [main] INFO  - addtocart test started........
-21:48:14.655 [main] INFO  - addtocart test started........
-21:48:37.265 [main] INFO  - Negative test: Estimate shipping with invalid details started
-21:48:44.176 [main] INFO  - Negative test: Estimate shipping with invalid details finished
-21:48:46.800 [main] INFO  - endtoened test started........
-21:48:48.312 [main] INFO  - ****validating expected message *****
-21:49:37.115 [main] INFO  - endtoened test finished........
+Command: [151fba6b06e6bc30e88b4d0bb2c84be6, actions {actions=[org.openqa.selenium.interactions.Sequence@606f81b5]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55704/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 151fba6b06e6bc30e88b4d0bb2c84be6
+20:20:08.002 [main] INFO  - CompareProduct test started........
+20:20:14.677 [main] INFO  - CompareProduct test ended........
+20:20:14.717 [main] INFO  - Negative Test: Add to compare without selecting product started...
+20:20:15.445 [main] INFO  - Negative Test: Add to compare without selecting product ended.
+20:20:15.449 [main] INFO  - Positive Test: Verify Compare Page UI Elements started...
+20:20:15.945 [main] ERROR - Exception in verifyComparePageUIElements: element not interactable: https://awesomeqa.com/ui/index.php?route=product/product&product_id=43 has no size and location
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2728f7317484998b9309e2443740b8b4, actions {actions=[org.openqa.selenium.interactions.Sequence@5e1fc42f]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55773}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55773/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2728f7317484998b9309e2443740b8b4
+20:20:43.670 [main] INFO  - CompareProduct test started........
+20:20:50.421 [main] INFO  - CompareProduct test ended........
+20:20:50.448 [main] INFO  - Negative Test: Add to compare without selecting product started...
+20:20:51.127 [main] INFO  - Negative Test: Add to compare without selecting product ended.
+20:20:51.131 [main] INFO  - Positive Test: Verify Compare Page UI Elements started...
+20:20:51.606 [main] ERROR - Exception in verifyComparePageUIElements: element not interactable: https://awesomeqa.com/ui/index.php?route=product/product&product_id=43 has no size and location
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd1897c235652e46d81ec8f220846382, actions {actions=[org.openqa.selenium.interactions.Sequence@28bdbe88]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55831}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55831/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd1897c235652e46d81ec8f220846382
+20:24:21.276 [main] INFO  - CompareProduct test started........
+20:24:28.182 [main] INFO  - CompareProduct test ended........
+20:24:28.220 [main] INFO  - Negative Test: Add to compare without selecting product started...
+20:24:28.939 [main] INFO  - Negative Test: Add to compare without selecting product ended.
+20:24:28.943 [main] INFO  - Positive Test: Verify Compare Page UI Elements started...
+20:24:39.561 [main] ERROR - Exception in verifyComparePageUIElements: Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='MacBook'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56019}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56019/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd38ba36b9c2550cbf0d6eff516c54e0
+20:26:32.819 [main] INFO  - CompareProduct test started........
+20:26:39.595 [main] INFO  - CompareProduct test ended........
+20:26:39.647 [main] INFO  - Negative Test: Add to compare without selecting product started...
+20:26:40.395 [main] INFO  - Negative Test: Add to compare without selecting product ended.
+20:26:40.401 [main] INFO  - Positive Test: Verify Compare Page UI Elements started...
+20:26:51.107 [main] ERROR - Exception in verifyComparePageUIElements: Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='MacBook'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56151}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56151/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 263ccd99c7ddff1c0ccafe641c5af224
+20:28:26.969 [main] INFO  - CompareProduct test started........
+20:28:34.493 [main] INFO  - CompareProduct test ended........
+20:28:34.537 [main] INFO  - Negative Test: Add to compare without selecting product started...
+20:29:05.173 [main] INFO  - Negative Test: Add to compare without selecting product ended.
+20:29:05.183 [main] INFO  - Positive Test: Verify Compare Page UI Elements started...
+20:29:30.770 [main] ERROR - Exception in verifyComparePageUIElements: Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='MacBook'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56265}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56265/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e08ea0241a02099618538f7b92aa1ec0
+20:32:29.683 [main] INFO  - CompareProduct test started........
+20:32:37.291 [main] INFO  - CompareProduct test ended........
+20:32:37.313 [main] INFO  - Negative Test: Add to compare without selecting product started...
+20:32:38.111 [main] INFO  - Negative Test: Add to compare without selecting product ended.
+20:32:38.115 [main] INFO  - Positive Test: Verify Compare Page UI Elements started...
+20:32:52.630 [main] ERROR - Exception in verifyComparePageUIElements: element not interactable
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13d221559e6b8090a652038de546b42a, clickElement {id=f.45CFC5004F7FC0F260B4387F1A0A58A4.d.3AC8E22829703E2568BA3D89B7EDE7A9.e.295}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56520}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56520/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (13d221559e6b8090a652038de546b42a)] -> xpath: //a[normalize-space()='MacBook']]
+Session ID: 13d221559e6b8090a652038de546b42a
+20:36:45.489 [main] INFO  - CompareProduct test started........
+20:36:52.863 [main] INFO  - CompareProduct test ended........
+20:36:52.891 [main] INFO  - Negative Test: Add to compare without selecting product started...
+20:36:53.894 [main] INFO  - Negative Test: Add to compare without selecting product ended.
+20:36:53.900 [main] INFO  - Positive Test: Verify Compare Page UI Elements started...
+20:37:05.250 [main] ERROR - Exception in verifyComparePageUIElements: Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='MacBook'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56781/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c13c52101dcc31e16dff2ebf6ae2c14

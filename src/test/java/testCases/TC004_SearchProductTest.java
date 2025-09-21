@@ -121,6 +121,139 @@ public class TC004_SearchProductTest extends BaseClass {
 	        Assert.fail();
 	    }
 	}
+	
+	 @Test(priority=5, groups = {"Sanity"})
+	    public void searchProductCaseInsensitive() throws InterruptedException {
+	        try {
+	            logger.info("Positive test: Case-insensitive search started");
+
+	            SearchPage sp = new SearchPage(driver);
+	            sp.EnterName("iphone"); 
+	            sp.clicksearch();
+	            Thread.sleep(2000);
+
+	            Assert.assertTrue(sp.isProductExist("iPhone"));
+
+	            logger.info("Positive test: Case-insensitive search finished");
+	        } 
+	        catch(Exception e)
+	        {
+	            logger.error("Exception in searchProductCaseInsensitive: " + e.getMessage());
+	            Assert.fail();
+	        }
+	    }
+	 
+	 @Test(priority=6, groups = {"Sanity"})
+	    public void searchProductWithPartialName() throws InterruptedException {
+	        try {
+	            logger.info("Positive test: Partial name search started");
+
+	            SearchPage sp = new SearchPage(driver);
+	            sp.EnterName("iPh"); 
+	            sp.clicksearch();
+	            Thread.sleep(2000);
+
+	            Assert.assertTrue(sp.isProductExist("iPhone"));
+
+	            logger.info("Positive test: Partial name search finished");
+	        } 
+	        catch(Exception e)
+	        {
+	            logger.error("Exception in searchProductWithPartialName: " + e.getMessage());
+	            Assert.fail();
+	        }
+	    }
+
+	  @Test(priority=7, groups = {"Sanity"})
+	    public void searchProductWithNumericInput() throws InterruptedException {
+	        try {
+	            logger.info("Positive test: Search with numeric input started");
+
+	            SearchPage sp = new SearchPage(driver);
+	            sp.EnterName("1"); 
+	            sp.clicksearch();
+	            Thread.sleep(2000);
+
+	            Assert.assertTrue(sp.isProductExist("Samsung Galaxy Tab 10.1"));
+
+	            logger.info("Positive test: Search with numeric input finished");
+	        }
+	        catch(Exception e) 
+	        {
+	            logger.error("Exception in searchProductWithNumericInput: " + e.getMessage());
+	            Assert.fail();
+	        }
+	    }
+
+	  @Test(priority=8, groups = {"Sanity"})
+	    public void verifySearchResultCount() throws InterruptedException {
+	        try {
+	            logger.info("Positive test: Verify search result count started");
+
+	            SearchPage sp = new SearchPage(driver);
+	            sp.EnterName("iPhone");
+	            sp.clicksearch();
+	            Thread.sleep(2000);
+
+	            int resultCount = sp.getSearchResultCount(); 
+	            Assert.assertTrue(resultCount > 0, "No products found in search results");
+
+	            logger.info("Positive test: Verify search result count finished");
+	        } catch(Exception e) 
+	        {
+	            logger.error("Exception in verifySearchResultCount: " + e.getMessage());
+	            Assert.fail();
+	        }
+	    }
+	  
+	  
+	  @Test(priority=9, groups = {"Negative"})
+	  public void searchProductWithSpecialCharsAndNumbers() throws InterruptedException {
+	      try {
+	          logger.info("Negative test: Search with special characters + numbers started");
+
+	          SearchPage sp = new SearchPage(driver);
+	          sp.EnterName("iPhone 13!"); 
+	          sp.clicksearch();
+	          Thread.sleep(2000);
+
+	          String noProductMsg = sp.getNoProductMessage();
+	          Assert.assertTrue(noProductMsg.contains("There is no product that matches the search criteria."));
+
+	          logger.info("Negative test: Search with special characters + numbers finished");
+	      } 
+	      catch(Exception e) 
+	      {
+	          logger.error("Exception in searchProductWithSpecialCharsAndNumbers: " + e.getMessage());
+	          Assert.fail();
+	      }
+	  }
+	  
+	  
+	  @Test(priority=10, groups = {"Sanity"})
+	  public void searchProductWithSpaces() throws InterruptedException {
+	      try {
+	          logger.info("Positive test: Search with leading/trailing spaces started");
+
+	          SearchPage sp = new SearchPage(driver);
+	          sp.EnterName("   iPhone   "); 
+	          sp.clicksearch();
+	          Thread.sleep(2000);
+
+	          Assert.assertTrue(sp.isProductExist("iPhone"));
+
+	          logger.info("Positive test: Search with leading/trailing spaces finished");
+	      } 
+	      catch(Exception e)
+	      {
+	          logger.error("Exception in searchProductWithSpaces: " + e.getMessage());
+	          Assert.fail();
+	      }
+	  }
 
 
 }
+
+
+
+
