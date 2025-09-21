@@ -161,3 +161,80 @@ System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.v
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56781/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 4c13c52101dcc31e16dff2ebf6ae2c14
+20:42:21.325 [main] INFO  - ****Starting testcase a *****
+20:42:21.528 [main] INFO  - ****clicked myaccount *****
+20:42:22.048 [main] INFO  - ****clicked register *****
+20:42:22.050 [main] INFO  - ****customer details *****
+20:42:23.622 [main] INFO  - ****validating expected message *****
+20:42:24.251 [main] INFO  - ****test executed*****
+20:42:24.306 [main] INFO  - ***Negative test: Empty first name started***
+20:42:35.726 [main] INFO  - ***Negative test: Empty first name finished***
+20:42:35.730 [main] INFO  - ***Negative test: Invalid email started***
+20:42:47.599 [main] INFO  - ***Negative test: Invalid email finished***
+20:42:47.616 [main] INFO  - ***Negative test: Password mismatch started***
+20:42:59.101 [main] INFO  - ***Negative test: Password mismatch finished***
+20:42:59.109 [main] INFO  - ***Negative test: Empty last name started***
+20:43:10.382 [main] INFO  - ***Negative test: Empty last name finished***
+20:43:10.385 [main] INFO  - ***Negative test: Policy not accepted started***
+20:43:22.011 [main] INFO  - ***Negative test: Policy not accepted finished***
+20:43:22.018 [main] INFO  - ***Negative test: Existing email started***
+20:43:33.316 [main] INFO  - ***Negative test: Existing email finished***
+20:43:33.320 [main] INFO  - ***Boundary test: Short password started***
+20:43:44.732 [main] INFO  - ***Boundary test: Short password finished***
+20:43:50.174 [main] INFO  - ***login started******
+20:43:51.914 [main] INFO  - ***finsihed login started******
+20:43:51.925 [main] INFO  - ***Negative login test: Invalid credentials started***
+20:43:52.948 [main] INFO  - ***Negative login test: Invalid credentials finished***
+20:43:52.951 [main] INFO  - ***Negative login test: Empty username started***
+20:43:53.777 [main] INFO  - ***Negative login test: Empty username finished***
+20:43:53.780 [main] INFO  - ***Negative login test: Empty password started***
+20:43:54.657 [main] INFO  - ***Negative login test: Empty password finished***
+20:43:54.667 [main] INFO  - ***Negative login test: Spaces only started***
+20:43:55.552 [main] INFO  - ***Negative login test: Spaces only finished***
+20:43:55.556 [main] INFO  - ***Security test: SQL Injection started***
+20:43:56.412 [main] INFO  - ***Security test: SQL Injection finished***
+20:43:56.420 [main] INFO  - ***Security test: XSS attempt started***
+20:43:57.378 [main] INFO  - ***Security test: XSS attempt finished***
+20:44:02.172 [main] INFO  - ***login started******
+20:44:04.049 [main] INFO  - ***login started******
+20:44:14.871 [main] INFO  - ***login started******
+20:44:25.794 [main] INFO  - ***login started******
+20:44:36.469 [main] INFO  - ***login started******
+20:44:50.097 [main] INFO  - search case started......
+20:44:57.672 [main] INFO  - search case ended......
+20:44:57.677 [main] INFO  - Negative test: Search non-existing product started
+20:45:00.248 [main] INFO  - Negative test: Search non-existing product finished
+20:45:00.253 [main] INFO  - Negative test: Search with empty input started
+20:45:02.938 [main] INFO  - Negative test: Search with empty input finished
+20:45:02.942 [main] INFO  - Negative test: Search with special characters started
+20:45:05.453 [main] INFO  - Negative test: Search with special characters finished
+20:45:05.455 [main] INFO  - Positive test: Case-insensitive search started
+20:45:07.998 [main] INFO  - Positive test: Case-insensitive search finished
+20:45:08.001 [main] INFO  - Positive test: Partial name search started
+20:45:10.598 [main] INFO  - Positive test: Partial name search finished
+20:45:10.602 [main] INFO  - Positive test: Search with numeric input started
+20:45:13.263 [main] INFO  - Positive test: Search with numeric input finished
+20:45:13.266 [main] INFO  - Positive test: Verify search result count started
+20:45:15.841 [main] INFO  - Positive test: Verify search result count finished
+20:45:15.846 [main] INFO  - Negative test: Search with special characters + numbers started
+20:45:18.466 [main] INFO  - Negative test: Search with special characters + numbers finished
+20:45:18.468 [main] INFO  - Positive test: Search with leading/trailing spaces started
+20:45:21.020 [main] INFO  - Positive test: Search with leading/trailing spaces finished
+20:45:23.911 [main] INFO  - Wishlist test started........
+20:46:32.052 [main] INFO  - Wishlist test ended........
+20:46:47.460 [main] INFO  - Negative test: Add to wishlist without login started
+20:47:03.008 [main] INFO  - Negative test: Add to wishlist without login finished
+20:47:05.604 [main] INFO  - CompareProduct test started........
+20:47:13.432 [main] INFO  - CompareProduct test ended........
+20:47:13.436 [main] INFO  - Negative Test: Add to compare without selecting product started...
+20:47:14.250 [main] INFO  - Negative Test: Add to compare without selecting product ended.
+20:47:16.544 [main] INFO  - addtocart test started........
+20:47:22.775 [main] INFO  - addtocart test ended........
+20:47:25.494 [main] INFO  - addtocart test started........
+20:47:49.138 [main] INFO  - Negative test: Estimate shipping with invalid details started
+20:47:56.250 [main] INFO  - Negative test: Estimate shipping with invalid details finished
+20:47:59.536 [main] INFO  - endtoened test started........
+20:48:01.442 [main] INFO  - ****validating expected message *****
+20:49:32.843 [main] INFO  - endtoened test started........
+20:49:34.945 [main] INFO  - ****validating expected message *****
+20:50:24.842 [main] INFO  - endtoened test finished........

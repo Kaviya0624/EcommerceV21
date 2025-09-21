@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC006_CompareProductTest">
+      <class name="testCases.TC009_E2ECheckoutflowTest">
         <methods>
           <include name="tearDown"/>
+          <include name="verifyE2Echekout"/>
           <include name="setup"/>
-          <include name="verifyComparePageUIElements"/>
         </methods>
-      </class> <!-- testCases.TC006_CompareProductTest -->
+      </class> <!-- testCases.TC009_E2ECheckoutflowTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->
