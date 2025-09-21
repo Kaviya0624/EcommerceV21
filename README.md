@@ -155,7 +155,12 @@ Hi, I’m Siva Kaviyamalya 👋 — an aspiring Automation Test Engineer passion
 <img width="1362" height="681" alt="image" src="https://github.com/user-attachments/assets/76fc3a92-a69d-40ea-99de-a0e100bb87ba" />
 <img width="1366" height="682" alt="image" src="https://github.com/user-attachments/assets/37e80349-a8e8-4d5b-85b2-094d635f24dd" />
 
+# On Selenium Grid - Standalone
+http://localhost:4444/ui/#
 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/242296f7-63dd-4d9e-9318-f2918f246f55" />
+<img width="1356" height="649" alt="image" src="https://github.com/user-attachments/assets/49489a07-9ce8-4078-abe9-6abfeebc4400" />
+<img width="1358" height="653" alt="image" src="https://github.com/user-attachments/assets/5002df23-c48f-44f5-b515-adef760c0f43" />
 
 ---
 
