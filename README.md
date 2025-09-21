@@ -169,7 +169,7 @@ http://localhost:4444/ui/#
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5ccb0d89-a42a-4787-94ef-ec38ca1eb8ac" />
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f07c98d4-c17c-45fa-a83d-81c4cea0f9da" />
 
-# On Selenium Grid - Dcoker
+# On Selenium Grid - Docker
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ca0e1c1c-b130-47a9-8444-f6f4b9264b19" />
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d525b27f-cb2a-4972-8310-3bb9e1cde84b" />
