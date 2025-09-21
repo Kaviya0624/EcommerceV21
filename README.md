@@ -151,8 +151,11 @@ Hi, I’m Siva Kaviyamalya 👋 — an aspiring Automation Test Engineer passion
 
 ## 🖼 Screenshots
 
+<img width="1366" height="681" alt="image" src="https://github.com/user-attachments/assets/e45ab574-6b7a-402e-b2fe-4f4cdfa99e5e" />
+<img width="1362" height="681" alt="image" src="https://github.com/user-attachments/assets/76fc3a92-a69d-40ea-99de-a0e100bb87ba" />
+<img width="1366" height="682" alt="image" src="https://github.com/user-attachments/assets/37e80349-a8e8-4d5b-85b2-094d635f24dd" />
 
-![Test Execution Report](screenshots/report.png)
+
 
 ---
 
