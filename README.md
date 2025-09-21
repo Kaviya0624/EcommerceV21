@@ -162,6 +162,13 @@ http://localhost:4444/ui/#
 <img width="1356" height="649" alt="image" src="https://github.com/user-attachments/assets/49489a07-9ce8-4078-abe9-6abfeebc4400" />
 <img width="1358" height="653" alt="image" src="https://github.com/user-attachments/assets/5002df23-c48f-44f5-b515-adef760c0f43" />
 
+# On Jenkins
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c39d3c66-7842-43a0-92ca-d5e3ffdcb636" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8c27fab7-67ae-4619-9ad9-ad63b4f09a68" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5ccb0d89-a42a-4787-94ef-ec38ca1eb8ac" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f07c98d4-c17c-45fa-a83d-81c4cea0f9da" />
+
 ---
 
 ## 🏷️ Badges
