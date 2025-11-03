@@ -242,3 +242,24 @@ Session ID: 4c13c52101dcc31e16dff2ebf6ae2c14
 21:28:40.565 [main] INFO  - ****validating expected message *****
 21:29:39.609 [main] INFO  - endtoened test started........
 21:29:41.921 [main] INFO  - ****validating expected message *****
+22:15:33.660 [main] INFO  - ****Starting testcase a *****
+22:15:34.084 [main] INFO  - ****clicked myaccount *****
+22:15:35.452 [main] INFO  - ****clicked register *****
+22:15:35.467 [main] INFO  - ****customer details *****
+22:15:42.465 [main] INFO  - ****validating expected message *****
+22:15:43.659 [main] INFO  - ****test executed*****
+22:15:43.702 [main] INFO  - ***Negative test: Empty first name started***
+22:15:44.979 [main] ERROR - Exception during negative test: unexpected alert open: {Alert text : 
+error
+undefined}
+  (Session info: chrome=140.0.7339.80): 
+error
+undefined
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [9ca082d2846e7da68e4e60d5d1c9c65e, findElement {using=xpath, value=//input[@id='input-firstname']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40047}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.4:4444/sessio..., se:cdpVersion: 140.0.7339.80, se:containerName: 50f5aa8004bb, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ca082d2846e7da68e4e60d5d1c9c65e
+22:26:39.033 [main] INFO  - endtoened test started........
+22:26:43.814 [main] INFO  - ****validating expected message *****

@@ -1,7 +1,7 @@
 To Run Standalone grid
 ----------------------
-cd C:\Users\ADMIN\git\EcommerceV21
-java -jar selenium-server-4.20.0.jar standalone
+cmd
+java -jar selenium-server-4.23.1.jar standalone
 http://localhost:4444/ui/#
 
 To Start Grid on Docker
